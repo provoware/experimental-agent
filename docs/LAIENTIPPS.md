@@ -70,3 +70,7 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 - `traceroute adresse` – zeigt die Stationen bis zum Ziel (Stationen = Zwischenknoten).
 - `sudo apt autoremove` – entfernt uebriggebliebene Pakete (Pakete = installierte Programme).
 - `ssh-keygen` – erstellt Schluessel fuer sichere Verbindungen (Schluessel = digitales Passwort).
+
+## Grafische Oberflaeche starten
+
+- `python start_gui.py` – oeffnet die GUI (GUI = grafische Benutzeroberflaeche). Dort kannst du den Controller per Klick starten.
