@@ -27,3 +27,10 @@ Der Controller sorgt dafür, dass alle Teile des Systems ordnungsgemäß laufen.
 * Mit `pip list` lassen sich installierte Pakete anzeigen.
 * `pip install --upgrade pip` aktualisiert **pip** auf die neueste Version.
 * Um die virtuelle Umgebung zu verlassen, `deactivate` eingeben. Danach kann sie mit `rm -r venv` gelöscht werden.
+
+### Weiterführende Tipps
+
+* `git status` zeigt den aktuellen Stand der Dateien.
+* `git add <datei>` fügt eine Datei zum nächsten Commit hinzu (Commit = gespeicherter Versionsschritt).
+* `git commit -m "Nachricht"` speichert die Änderungen dauerhaft.
+* `git push` überträgt den Commit auf den Server.

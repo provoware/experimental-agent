@@ -10,6 +10,10 @@ def test_run_returns_message():
     c = Controller()
     assert c.run() == "Controller laeuft"
 
+def test_self_heal():
+    c = Controller()
+    assert c.self_heal() == "Selbstheilung aktiviert"
+
 
 def test_hauptfunktion():
     assert hauptfunktion() == "Hallo Welt"

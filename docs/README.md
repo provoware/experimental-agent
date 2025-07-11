@@ -23,3 +23,10 @@ Damit ist die Umgebung bereit für die Ausführung.
 1. `pytest` – führt die Tests aus.
 2. `python src/main.py` – startet den Controller.
 3. Mit `deactivate` verlässt du die virtuelle Umgebung.
+
+## Weiterführende Befehle
+
+* `git status` zeigt, welche Dateien geändert wurden.
+* `git add <datei>` nimmt die Datei in den nächsten Commit (Versionsschritt) auf.
+* `git commit -m "Nachricht"` speichert diesen Schritt lokal.
+* `git push` sendet den Commit zum Server.

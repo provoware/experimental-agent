@@ -18,3 +18,9 @@ Weitere Nuetzliche Befehle:
 - `pip list` zeigt alle installierten Pakete an.
 - `pip install --upgrade pip` aktualisiert **pip**.
 - `python3 -m venv --help` liefert Hilfe zur virtuellen Umgebung.
+
+Weiterführende Befehle:
+- `git status` zeigt den aktuellen Stand der Änderungen.
+- `git add <datei>` nimmt eine Datei in den nächsten Commit auf (Commit = gespeicherter Schritt).
+- `git commit -m "Nachricht"` speichert den Schritt lokal.
+- `git push` sendet den Commit zum Server.

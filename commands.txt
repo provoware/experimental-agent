@@ -1,6 +1,7 @@
 git add <datei>  # Datei zum nächsten Commit vormerken
 git commit -m "Nachricht"  # Änderungen lokal speichern
 git push  # Änderungen auf den Server laden
+git status  # zeigt den Zustand des Arbeitsverzeichnisses
 mkdir -p <ordner>  # erstellt Ordner
 touch <datei>  # erstellt leere Datei
 find . -type f ! -path './.git/*' | sort > verzeichnisstruktur.txt  # erzeugt Dateiliste

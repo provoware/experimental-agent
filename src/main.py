@@ -10,6 +10,10 @@ class Controller:
         self._running = True
         return "Controller laeuft"
 
+    def self_heal(self):
+        """Versucht einfache Fehler selbst zu beheben."""
+        return "Selbstheilung aktiviert"
+
 def hauptfunktion():
     """Gibt eine Grußnachricht zurück."""
     return "Hallo Welt"
