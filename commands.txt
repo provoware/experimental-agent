@@ -8,5 +8,5 @@ pytest  # startet Tests
 rm -rf .pytest_cache  # entfernt Test-Zwischenspeicher
 sed -i 'alt neu' datei  # ersetzt 'alt' durch 'neu'
 python src/main.py  # startet den Controller
-=======
 pytest -q  # Tests ausführen
+pip install -e .[dev]  # installiert Entwicklungs-Abhängigkeiten

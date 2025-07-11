@@ -1,0 +1,22 @@
+[project]
+name = "experimental-agent"
+version = "0.1.0"
+description = "Unveraenderlicher zentraler Controller."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+dependencies = []
+
+[project.optional-dependencies]
+# Pakete fuer Entwickler (developer extras)
+# 'pytest' startet die Tests, 'black' formatiert den Code
+# Diese Pakete werden nur benoetigt, wenn du am Code arbeitest
+# und koennen mit 'pip install -e .[dev]' installiert werden
+# (pip ist das Python-Installationsprogramm)
+# '-e' steht fuer 'editable', so kannst du lokal entwickeln
+# '[dev]' waehlt die Extras aus
+
+dev = [
+    "pytest",
+    "black",
+]
