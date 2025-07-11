@@ -13,3 +13,9 @@ Diese Datei sammelt einfache Vorschläge mit vollständigen Befehlen. Fachwörte
 - `rm -r ordnername` – löscht einen Ordner samt Inhalt (Ordner = Verzeichnis).
 
 Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen.
+- `ls` – zeigt den Inhalt des aktuellen Ordners an (Ordner = Verzeichnis).
+- `cd ..` – wechselt eine Ebene nach oben (Ebene = uebergeordneter Ordner).
+- `mkdir neuerordner` – legt einen neuen Ordner an.
+- `touch datei.txt` – erstellt eine leere Datei (Datei = einzelnes Dokument).
+- `cp quelle ziel` – kopiert eine Datei (kopieren = duplizieren).
+- `mv quelle ziel` – verschiebt oder benennt eine Datei um (verschieben = an anderen Ort legen).

@@ -43,3 +43,4 @@ Der Controller sorgt dafür, dass alle Teile des Systems ordnungsgemäß laufen.
 * `python beispiel.py` führt ein Python-Programm aus (Python = Programmiersprache).
 * `pip uninstall paketname` entfernt ein Paket (Paket = Sammlung von Programmteilen).
 Weitere ausführliche Hinweise findest du in `docs/LAIENTIPPS.md`.
+Die Datei enthaelt jetzt weitere Beispiele wie `ls` oder `mkdir`.

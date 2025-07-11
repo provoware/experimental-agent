@@ -18,3 +18,7 @@ git branch <name>  # neuen Branch (Entwicklungszweig) erstellen
 git checkout <name>  # zu einem Branch wechseln
 pip uninstall <paket>  # Paket deinstallieren
 python <datei>  # Python-Skript starten
+ls  # zeigt Dateien und Ordner an
+cd ..  # eine Ebene hoeher wechseln
+cp <quelle> <ziel>  # Datei kopieren
+mv <quelle> <ziel>  # Datei verschieben oder umbenennen
