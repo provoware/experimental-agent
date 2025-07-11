@@ -10,3 +10,5 @@ sed -i 'alt neu' datei  # ersetzt 'alt' durch 'neu'
 python src/main.py  # startet den Controller
 =======
 pytest -q  # Tests ausführen
+flake8 .  # Code-Analyse (Lint) starten
+python -m build  # Paket erstellen
