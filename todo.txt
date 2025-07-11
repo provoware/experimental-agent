@@ -5,4 +5,5 @@ commands.txt und actions.log erstellen: erledigt
 verzeichnisstruktur.txt erzeugen: erledigt
 CI-Workflow erweitern: erledigt
 Tests hinzufügen: erledigt
-Hauptmodul implementieren: offen
+Hauptmodul implementieren: erledigt
+Dokumentation erweitern: offen

@@ -1,2 +1,2 @@
-Letzter Schritt: Tests hinzugefuegt
-Nächster Schritt: Hauptmodul implementieren
+Letzter Schritt: Hauptmodul implementiert
+Nächster Schritt: Dokumentation erweitern

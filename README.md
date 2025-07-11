@@ -6,5 +6,6 @@ Dieses Projekt zeigt einen unveränderlichen zentralen Controller. Er lässt sic
 
 1. `git clone <REPO-URL>` (holt den Quellcode vom Server)
 2. `cd experimental-agent` (wechseln in den Projektordner)
-3. `pytest` (startet die Tests, falls welche existieren)
+3. `pytest` (startet die Tests)
+4. `python src/main.py` (startet den Controller)
 
