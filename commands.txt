@@ -56,3 +56,8 @@ ping <adresse>  # Verbindung testen
 traceroute <adresse>  # Netzwerkwege anzeigen
 sudo apt autoremove  # nicht mehr benoetigte Pakete entfernen
 ssh-keygen  # Schluessel erzeugen
+git rebase <basis>  # Commits neu anordnen
+docker run <bildname>  # Container starten
+tmux new -s <sitzung>  # Terminal-Multiplexer starten
+screen -S <sitzung>  # dauerhafte Terminal-Sitzung
+htop  # Prozesse in bunter Ansicht
