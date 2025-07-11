@@ -58,3 +58,7 @@ Die Liste dort enthaelt jetzt auch Befehle wie `pwd`, `cat`, `nano`, `history`, 
 Zusaetzlich gibt es eine kleine grafische Oberflaeche. Starte sie mit `python src/gui.py`.
 Die Tippsdatei enthaelt jetzt auch Befehle wie `less`, `tail` oder `ssh`.
 Die Sammlung wurde um Kommandos wie `free -m`, `whoami`, `ping` und `traceroute` erweitert.
+
+## Release erstellen
+
+Mit `pyinstaller` laesst sich eine einzelne ausfuehrbare Datei bauen. Anschliessend erzeugt `appimagetool` ein AppImage fuer Linux. Details stehen in `docs/release.md`.

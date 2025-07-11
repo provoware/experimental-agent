@@ -56,3 +56,5 @@ ping <adresse>  # Verbindung testen
 traceroute <adresse>  # Netzwerkwege anzeigen
 sudo apt autoremove  # nicht mehr benoetigte Pakete entfernen
 ssh-keygen  # Schluessel erzeugen
+pyinstaller --onefile src/main.py  # erstellt Einzeldatei
+appimagetool dist/main  # baut AppImage
