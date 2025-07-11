@@ -39,3 +39,13 @@ Die Sammlung dort enthält jetzt auch Befehle wie `pwd`, `cat`, `nano`, `history
 Es gibt auch eine kleine grafische Oberflaeche. Mit `python src/gui.py` startest du sie und kannst den Controller per Knopfdruck aufrufen.
 Die Tippsdatei enthaelt zudem neue Befehle wie `less`, `tail` und `ssh`.
 Auch Befehle wie `free -m`, `whoami`, `ping` und `traceroute` sind nun erklaert.
+
+## Best Practices
+
+Eine ausführliche Liste von bewährten Verfahren findest du in [BESTPRACTICES.md](BESTPRACTICES.md). Dort wird erklärt, wie du einheitliche Standards einhältst und den Code barrierefrei gestaltest.
+
+## Barrierefreiheit
+
+- Nutze hohe Kontraste in der grafischen Oberfläche.
+- Hinterlege für Bilder immer einen beschreibenden Alt-Text (Text für Bildschirmleser).
+- Größere Schrift kannst du im Terminal meist mit `Strg` + `+` einstellen.

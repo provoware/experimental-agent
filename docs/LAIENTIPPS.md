@@ -70,3 +70,10 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 - `traceroute adresse` – zeigt die Stationen bis zum Ziel (Stationen = Zwischenknoten).
 - `sudo apt autoremove` – entfernt uebriggebliebene Pakete (Pakete = installierte Programme).
 - `ssh-keygen` – erstellt Schluessel fuer sichere Verbindungen (Schluessel = digitales Passwort).
+
+## Tipps zur Barrierefreiheit
+
+- `Strg` + `+` vergrößert die Schrift im Terminal (Terminal = Eingabefenster).
+- `Strg` + `-` verkleinert die Schrift.
+- `sudo apt install orca` installiert den Bildschirmleser *Orca* (Bildschirmleser = Programm, das Text vorliest).
+- `gnome-control-center universal-access` öffnet die Einstellungen für erleichterte Bedienung.

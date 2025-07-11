@@ -58,3 +58,12 @@ Die Liste dort enthaelt jetzt auch Befehle wie `pwd`, `cat`, `nano`, `history`, 
 Zusaetzlich gibt es eine kleine grafische Oberflaeche. Starte sie mit `python src/gui.py`.
 Die Tippsdatei enthaelt jetzt auch Befehle wie `less`, `tail` oder `ssh`.
 Die Sammlung wurde um Kommandos wie `free -m`, `whoami`, `ping` und `traceroute` erweitert.
+
+## Best Practices
+
+Eine detaillierte Liste mit globalen Standards findest du in [docs/BESTPRACTICES.md](docs/BESTPRACTICES.md). Dort stehen auch Tipps für barrierefreien (zugänglichen) Code.
+
+### Tipps für Sehschwache
+
+- In vielen Terminals vergrößerst du die Schrift mit `Strg` + `+`.
+- Unter GNOME öffne `gnome-control-center universal-access` für Einstellungen zur Barrierefreiheit (Barrierefreiheit = erleichterte Bedienung).
