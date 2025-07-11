@@ -10,7 +10,7 @@ class Controller:
 
 if __name__ == "__main__":
     print(Controller().run())
-=======
+
 """Hauptmodul."""
 
 
