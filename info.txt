@@ -1,2 +1,2 @@
-Letzter Schritt: Hauptfunktion implementiert
-Nächster Schritt: Neue Tests erweitern
+Letzter Schritt: Tests erweitert
+Nächster Schritt: Dokumentation ergaenzen

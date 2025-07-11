@@ -8,3 +8,13 @@ from src.main import hauptfunktion
 
 def test_hauptfunktion():
     assert hauptfunktion() == "Hallo Welt"
+
+
+def test_hauptfunktion_typ():
+    ergebnis = hauptfunktion()
+    assert isinstance(ergebnis, str)
+
+
+def test_hauptfunktion_laenge():
+    ergebnis = hauptfunktion()
+    assert len(ergebnis) > 0
