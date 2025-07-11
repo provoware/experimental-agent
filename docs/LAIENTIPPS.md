@@ -70,3 +70,12 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 - `traceroute adresse` – zeigt die Stationen bis zum Ziel (Stationen = Zwischenknoten).
 - `sudo apt autoremove` – entfernt uebriggebliebene Pakete (Pakete = installierte Programme).
 - `ssh-keygen` – erstellt Schluessel fuer sichere Verbindungen (Schluessel = digitales Passwort).
+
+## Fortgeschrittene Befehle
+
+- `git stash` – legt aktuelle Änderungen beiseite (beiseite legen = speichern ohne Commit).
+- `rsync -av quelle ziel` – kopiert Daten effizient (effizient = nur geänderte Dateien).
+- `screen` – startet eine neue Terminal-Sitzung (Sitzung = Arbeitsfenster im Terminal).
+- `tmux new -s name` – erstellt eine geteilte Umgebung (Multiplexer = mehrere Fenster in einem Terminal).
+- `docker run image` – startet einen Container (Container = isolierte Umgebung).
+- `docker build -t name .` – baut ein Docker-Abbild (Abbild = Vorlage für Container).
