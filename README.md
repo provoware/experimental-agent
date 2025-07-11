@@ -4,6 +4,16 @@ Der **Controller** (Steuerprogramm) ist das Herzstück dieses Projekts. Er verwa
 
 ## Installation
 
+1. `git clone <REPO-URL>` (holt den Quellcode vom Server)
+2. `cd experimental-agent` (wechseln in den Projektordner)
+3. `pytest` (startet die Tests, falls welche existieren)
+4. `python src/main.py` (startet den Controller)
+
+## Weiterführende Tipps
+
+In der Datei [docs/anleitung.md](docs/anleitung.md) findest du einfache Vorschläge, wie
+du dieses Projekt erweitern kannst.
+
 1. Terminal öffnen.
 2. `git clone <REPO-URL>` (Repository aus der Versionsverwaltung klonen).
 3. `cd experimental-agent` (in den Ordner wechseln).

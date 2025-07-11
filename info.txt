@@ -1,2 +1,4 @@
+Letzter Schritt: Tests erweitert
+Nächster Schritt: Dokumentation ergaenzen
 Letzter Schritt: Zusatzbefehle ergaenzt
 Nächster Schritt: Release vorbereiten
