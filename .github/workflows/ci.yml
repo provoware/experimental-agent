@@ -1,0 +1,14 @@
+name: CI
+on: [push]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install pytest coverage flake8 yq shellcheck-py
+      - run: pytest
+      - run: coverage run -m pytest && coverage xml
+      - run: flake8
