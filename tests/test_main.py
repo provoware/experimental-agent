@@ -1,29 +1,25 @@
-import sys, os
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
-
-from main import Controller
-
-def test_run_returns_message():
-    c = Controller()
-    assert c.run() == "Controller laeuft"
-=======
 import os
 import sys
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from src.main import hauptfunktion
+from src.main import Controller, hauptfunktion
 
 
-def test_hauptfunktion():
+def test_run_returns_message() -> None:
+    controller = Controller()
+    assert controller.run() == "Controller laeuft"
+
+
+def test_hauptfunktion() -> None:
     assert hauptfunktion() == "Hallo Welt"
 
 
-def test_hauptfunktion_typ():
+def test_hauptfunktion_typ() -> None:
     ergebnis = hauptfunktion()
     assert isinstance(ergebnis, str)
 
 
-def test_hauptfunktion_laenge():
+def test_hauptfunktion_laenge() -> None:
     ergebnis = hauptfunktion()
     assert len(ergebnis) > 0

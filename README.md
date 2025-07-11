@@ -7,7 +7,8 @@ Dieses Projekt zeigt einen unveränderlichen zentralen Controller. Er lässt sic
 1. `git clone <REPO-URL>` (holt den Quellcode vom Server)
 2. `cd experimental-agent` (wechseln in den Projektordner)
 3. `pytest` (startet die Tests)
-4. `python src/main.py` (startet den Controller)
-=======
-3. `pytest` (startet die Tests, falls welche existieren)
+4. `python -m src.main` (startet den Controller)
+
+Im laufenden Programm kann über das Menü **Einstellungen...** das neue
+Fenster zum Anpassen von Dark-/Light-Modus und Schriftgröße geöffnet werden.
 
