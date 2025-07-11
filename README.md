@@ -43,4 +43,4 @@ Der Controller sorgt dafür, dass alle Teile des Systems ordnungsgemäß laufen.
 * `python beispiel.py` führt ein Python-Programm aus (Python = Programmiersprache).
 * `pip uninstall paketname` entfernt ein Paket (Paket = Sammlung von Programmteilen).
 Weitere ausführliche Hinweise findest du in `docs/LAIENTIPPS.md`.
-Die Liste dort enthaelt jetzt auch Befehle wie `pwd`, `cat`, `nano`, `history` und `man`, jeweils knapp erklaert.
+Die Liste dort enthaelt jetzt auch Befehle wie `pwd`, `cat`, `nano`, `history`, `man`, `apt update`, `df -h`, `curl` und `wget`, jeweils kurz beschrieben.

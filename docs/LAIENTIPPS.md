@@ -35,3 +35,13 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 - `chmod +x datei.sh` – macht eine Datei ausfuehrbar (ausfuehrbar = kann gestartet werden).
 - `tar -czf archiv.tar.gz ordner` – erstellt ein komprimiertes Archiv (Archiv = gepackte Datei).
 - `sudo befehl` – fuehrt einen Befehl mit Administratorrechten aus (Administrator = Benutzer mit allen Rechten).
+
+## Noch mehr nuetzliche Befehle
+
+- `apt update && apt upgrade` – aktualisiert alle Pakete (Pakete = installierte Programme).
+- `df -h` – zeigt wie voll die Festplatte ist (Festplatte = Speicher).
+- `top` – listet laufende Programme in Echtzeit (Echtzeit = sofortige Aktualisierung).
+- `ps aux` – zeigt alle laufenden Prozesse an (Prozess = laufendes Programm).
+- `kill <PID>` – beendet einen Prozess (PID = Prozess-ID).
+- `curl https://adresse` – ruft Daten aus dem Internet ab (Internet = weltweites Netzwerk).
+- `wget <URL>` – laedt eine Datei herunter (herunterladen = aus dem Internet speichern).

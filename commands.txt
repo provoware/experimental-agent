@@ -32,3 +32,10 @@ man <befehl>  # Handbuchseite zu einem Befehl oeffnen
 chmod +x <datei.sh>  # Datei ausfuehrbar machen
 tar -czf <archiv.tar.gz> <ordner>  # Verzeichnis als Archiv packen
 sudo <befehl>  # Befehl mit Administratorrechten ausfuehren
+apt update && apt upgrade  # Systempakete aktualisieren
+df -h  # Speicherplatz anzeigen
+top  # laufende Programme in Echtzeit
+ps aux  # Prozesse auflisten
+kill <PID>  # Prozess beenden
+curl <url>  # Daten aus dem Internet abrufen
+wget <url>  # Datei aus dem Internet speichern
