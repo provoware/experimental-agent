@@ -2,6 +2,7 @@
 
 class Controller:
     """Unveraenderlicher zentraler Controller."""
+
     def __init__(self):
         self._running = False
 
@@ -10,18 +11,15 @@ class Controller:
         self._running = True
         return "Controller laeuft"
 
-if __name__ == "__main__":
-    print(Controller().run())
-
-"""Hauptmodul."""
-
     def self_heal(self):
         """Versucht einfache Fehler selbst zu beheben."""
         return "Selbstheilung aktiviert"
 
+
 def hauptfunktion():
     """Gibt eine Grußnachricht zurück."""
     return "Hallo Welt"
+
 
 if __name__ == "__main__":
     print(Controller().run())

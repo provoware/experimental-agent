@@ -70,3 +70,10 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 - `traceroute adresse` – zeigt die Stationen bis zum Ziel (Stationen = Zwischenknoten).
 - `sudo apt autoremove` – entfernt uebriggebliebene Pakete (Pakete = installierte Programme).
 - `ssh-keygen` – erstellt Schluessel fuer sichere Verbindungen (Schluessel = digitales Passwort).
+
+## Fehlerbehandlung
+
+- `systemctl status dienst` – zeigt, ob ein Dienst (Hintergrundprogramm) laeuft.
+- `journalctl -xe` – gibt aktuelle Systemnachrichten (Logfiles) aus.
+- `dmesg` – listet Meldungen des Kernels (Kernel = Kern des Betriebssystems).
+- `tail -f /var/log/syslog` – beobachtet laufend das Systemprotokoll.
