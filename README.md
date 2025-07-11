@@ -59,3 +59,4 @@ Zusaetzlich gibt es eine kleine grafische Oberflaeche. Starte sie mit `python sr
 Die Tippsdatei enthaelt jetzt auch Befehle wie `less`, `tail` oder `ssh`.
 Die Sammlung wurde um Kommandos wie `free -m`, `whoami`, `ping` und `traceroute` erweitert.
 Neu sind Tipps zu `alias`, `bashrc`, `PATH`, `crontab` und `rsync` fuer praktische Anpassungen.
+Ganz neu findest du dort Hinweise zur Eingabeaufforderung, zum Verlauf, zur Dateisuche und zu symbolischen Links.

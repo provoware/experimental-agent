@@ -79,3 +79,10 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 - `export PATH="$PATH:/opt/neues"` – fuegt einen Ordner zum Suchpfad hinzu (Suchpfad = Liste, in der das System nach Programmen schaut).
 - `crontab -e` – oeffnet die Tabelle fuer automatische Aufgaben (crontab = Zeitplan fuer Befehle).
 - `rsync -av quelle ziel` – synchronisiert Dateien (synchronisieren = abgleichen von Ordnern).
+
+## Weitere praktische Tipps
+
+- `PS1="\u@\h:\w$ "` – passt die Eingabeaufforderung an (PS1 = Text vor jedem Befehl).
+- `history -c` – leert den Befehlsspeicher (Befehlsspeicher = Verlauf der Befehle).
+- `find . -name "*.py"` – sucht nach Python-Dateien (suchen = Verzeichnisse durchsuchen).
+- `ln -s ziel verknuepfung` – erstellt einen symbolischen Link (symbolisch = Verweis auf eine andere Datei).
