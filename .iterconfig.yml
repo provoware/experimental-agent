@@ -1,1 +1,8 @@
+cat > .iterconfig.yml <<'YAML'
+project_name: experimental-agent
+default_module: core                 # Standard-Modulname
+chunk_sizes: [XS, S]                 # Welche Aufgaben-Größen durchlaufen
+backup_keep: 5                       # Wie viele Snapshots behalten
+coverage_target: 85                  # % bis Ampel auf Grün springt
+YAML
 
