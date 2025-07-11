@@ -77,3 +77,6 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 - `git stash` – legt Änderungen vorübergehend beiseite (beiseitelegen = speichern ohne Commit).
 - `git revert HEAD` – macht den letzten Commit rückgängig (Commit = gespeicherter Arbeitsschritt), ohne die Historie zu verändern.
 - `git reset --hard HEAD~1` – setzt den Stand um einen Commit zurück (Stand = aktueller Inhalt). Alle lokalen Änderungen gehen verloren.
+- `git diff` – zeigt die aktuellen Unterschiede an (Unterschiede = Änderungen seit dem letzten Commit).
+- `git cherry-pick <hash>` – übernimmt einen bestimmten Commit von einem anderen Zweig (Commit = gespeicherter Arbeitsschritt).
+- `git tag -a v1.0 -m "Text"` – erstellt eine Markierung (Tag = fester Punkt in der Historie) mit Beschreibung.

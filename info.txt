@@ -1,2 +1,2 @@
-Letzter Schritt: Funktion zum Modul-Hinzufügen erstellt
+Letzter Schritt: Module in GUI integriert
 Nächster Schritt: Release vorbereiten
