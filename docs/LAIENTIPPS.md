@@ -70,3 +70,9 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 - `traceroute adresse` – zeigt die Stationen bis zum Ziel (Stationen = Zwischenknoten).
 - `sudo apt autoremove` – entfernt uebriggebliebene Pakete (Pakete = installierte Programme).
 - `ssh-keygen` – erstellt Schluessel fuer sichere Verbindungen (Schluessel = digitales Passwort).
+
+## Weitere Git-Befehle
+
+- `git stash` – legt aktuelle Änderungen kurz beiseite (stash = Zwischenablage).
+- `git stash pop` – holt diese Änderungen wieder zurück.
+- `git reset --hard HEAD` – macht alle lokalen Änderungen rückgängig (reset = zurücksetzen).
