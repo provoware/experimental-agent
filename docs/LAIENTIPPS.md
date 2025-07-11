@@ -70,3 +70,8 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 - `traceroute adresse` – zeigt die Stationen bis zum Ziel (Stationen = Zwischenknoten).
 - `sudo apt autoremove` – entfernt uebriggebliebene Pakete (Pakete = installierte Programme).
 - `ssh-keygen` – erstellt Schluessel fuer sichere Verbindungen (Schluessel = digitales Passwort).
+
+## Release vorbereiten
+
+- `pyinstaller --onefile src/main.py` – baut eine einzelne Programmdatei (Programmdatei = ausführbares Archiv).
+- `appimagetool AppDir` – erzeugt daraus ein AppImage (AppImage = portables Linux-Programm).

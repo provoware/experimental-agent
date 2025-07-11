@@ -12,6 +12,8 @@ Neue Tests erweitern: erledigt
 Dokumentation ergaenzen: erledigt
 Aufgabenreihenfolge erstellen: erledigt
 Release vorbereiten: offen
+Indentation im Hauptmodul korrigieren: offen
+Packaging als AppImage einrichten: offen
 Selbstheilung implementieren: erledigt
 Laienvorschlaege ergaenzen: erledigt
 Dateien vervollstaendigen: erledigt
