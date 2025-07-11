@@ -56,3 +56,6 @@ ping <adresse>  # Verbindung testen
 traceroute <adresse>  # Netzwerkwege anzeigen
 sudo apt autoremove  # nicht mehr benoetigte Pakete entfernen
 ssh-keygen  # Schluessel erzeugen
+python3 -m tkinter  # prueft, ob tkinter installiert ist
+sudo apt install python3-tk  # installiert tkinter
+
