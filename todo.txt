@@ -21,3 +21,12 @@ Noch mehr Laienbefehle: erledigt
 Interaktive GUI erstellen: erledigt
 Zusatzbefehle ergaenzen: erledigt
 
+Verzeichnisstruktur aktualisieren: erledigt
+Ansicht optimiert: erledigt
+Hauptmodul repariert: erledigt
+Funktion zum Modul-Hinzufügen: erledigt
+Laienvorschläge erweitert: erledigt
+Module in GUI integrieren: erledigt
+Noch weiterfuehrende Laienbefehle: erledigt
+Professionelle Versionskontrolle: erledigt
+Profi-Version Laienvorschlaege: erledigt

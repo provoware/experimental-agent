@@ -70,3 +70,48 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 - `traceroute adresse` – zeigt die Stationen bis zum Ziel (Stationen = Zwischenknoten).
 - `sudo apt autoremove` – entfernt uebriggebliebene Pakete (Pakete = installierte Programme).
 - `ssh-keygen` – erstellt Schluessel fuer sichere Verbindungen (Schluessel = digitales Passwort).
+
+## Versionskontrolle erweitern
+
+- `git log` – zeigt die Historie an (Historie = Liste aller Commits).
+- `git stash` – legt Änderungen vorübergehend beiseite (beiseitelegen = speichern ohne Commit).
+- `git revert HEAD` – macht den letzten Commit rückgängig (Commit = gespeicherter Arbeitsschritt), ohne die Historie zu verändern.
+- `git reset --hard HEAD~1` – setzt den Stand um einen Commit zurück (Stand = aktueller Inhalt). Alle lokalen Änderungen gehen verloren.
+- `git diff` – zeigt die aktuellen Unterschiede an (Unterschiede = Änderungen seit dem letzten Commit).
+- `git cherry-pick <hash>` – übernimmt einen bestimmten Commit von einem anderen Zweig (Commit = gespeicherter Arbeitsschritt).
+- `git tag -a v1.0 -m "Text"` – erstellt eine Markierung (Tag = fester Punkt in der Historie) mit Beschreibung.
+
+## Noch mehr Versionskontrolle
+
+- `git rebase main` – wendet deine Arbeit auf die aktuelle Hauptlinie an (rebase = neu ausrichten).
+- `git commit --amend` – ändert den letzten Commit (Commit = gespeicherter Arbeitsschritt) nachträglich.
+- `git bisect start` – hilft einen Fehler schnell zu finden (bisect = halbieren).
+- `git bisect good <hash>` – markiert eine Version ohne Fehler.
+- `git bisect bad <hash>` – markiert eine Version mit dem Fehler.
+- `git clean -f` – entfernt unversionierte Dateien (unversioniert = nicht in Git).
+- `git remote add origin <URL>` – verbindet dein Projekt mit einem Server (Server = zentrale Ablage).
+- `git push origin main` – überträgt deine Arbeit zum Server.
+
+## Professionelle Versionskontrolle
+
+- `git fetch origin` – holt neue Daten vom Server, ohne sie einzubauen (fetch = nur herunterladen).
+- `git pull --rebase` – holt Daten und ordnet deine Arbeit oben an (rebase = neu ausrichten).
+- `git branch -d zweig` – löscht einen Entwicklungszweig (Branch = parallele Arbeitslinie).
+- `git merge --no-ff zweig` – fügt einen Zweig immer als eigenen Punkt ein (no-ff = ohne direkte Verschmelzung).
+- `git remote -v` – zeigt verbundene Server an (remote = entfernte Ablage).
+- `git stash list` – zeigt abgelegte Änderungen (stash = Zwischenablage).
+- `git stash pop` – holt zuletzt abgelegte Änderungen zurück (pop = wiederherstellen).
+- `git rebase --abort` – bricht eine laufende Rebase ab (Rebase = Neuordnung der Commits).
+- `git merge --abort` – bricht einen Merge-Vorgang ab (Merge = Zusammenführen).
+- `git branch -m alt neu` – benennt einen Zweig um.
+- `git config --global user.name "Name"` – legt deinen Namen fest (Config = Einstellung).
+- `git config --global user.email "mail@example.com"` – legt deine E-Mail fest.
+
+## Profi-Version
+
+- `git reflog` – listet alle Bewegungen des Projektzeigers auf (reflog = Verlauf der Commits) und hilft, verlorene Stände wiederzufinden.
+- `git submodule add <URL> unterordner` – bindet ein weiteres Repository ein (Submodule = eingebettetes Unterprojekt).
+- `git worktree add -b zweig ../zweig-verzeichnis` – legt einen zusätzlichen Arbeitsbaum an (Worktree = weiterer Projektordner) und erstellt direkt einen neuen Zweig.
+- `git commit --signoff -m "Nachricht"` – fügt dem Commit eine Signaturzeile hinzu (Signoff = Bestätigung mit Namen und E-Mail).
+- `git gc` – räumt das Repository auf (gc = garbage collection, Datenbereinigung).
+- `git blame datei` – zeigt, wer welche Zeile zuletzt geändert hat (blame = Zuschreibung).

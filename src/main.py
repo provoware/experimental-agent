@@ -1,7 +1,10 @@
 """Hauptmodul."""
 
+import os
+
 class Controller:
     """Unveraenderlicher zentraler Controller."""
+
     def __init__(self):
         self._running = False
 
@@ -10,18 +13,27 @@ class Controller:
         self._running = True
         return "Controller laeuft"
 
-if __name__ == "__main__":
-    print(Controller().run())
-
-"""Hauptmodul."""
-
     def self_heal(self):
         """Versucht einfache Fehler selbst zu beheben."""
         return "Selbstheilung aktiviert"
 
+    def add_module(self, module_name):
+        """Fügt ein Modul hinzu und heilt Fehler selbständig."""
+        try:
+            __import__(module_name)
+            return f"Modul {module_name} geladen"
+        except Exception:
+            path = os.path.join('src', f"{module_name}.py")
+            if not os.path.exists(path):
+                with open(path, 'w') as f:
+                    f.write("# automatisch erzeugter Platzhalter für neues Modul\n")
+            return f"Fehler beim Laden, Platzhalter fuer {module_name} erstellt"
+
+
 def hauptfunktion():
-    """Gibt eine Grußnachricht zurück."""
+    """Gibt eine Grußnachricht zurueck."""
     return "Hallo Welt"
+
 
 if __name__ == "__main__":
     print(Controller().run())
