@@ -58,3 +58,17 @@ Die Liste dort enthaelt jetzt auch Befehle wie `pwd`, `cat`, `nano`, `history`, 
 Zusaetzlich gibt es eine kleine grafische Oberflaeche. Starte sie mit `python src/gui.py`.
 Die Tippsdatei enthaelt jetzt auch Befehle wie `less`, `tail` oder `ssh`.
 Die Sammlung wurde um Kommandos wie `free -m`, `whoami`, `ping` und `traceroute` erweitert.
+
+## Release erstellen
+
+1. Stelle sicher, dass `appimagetool` installiert ist. Unter Debian/Ubuntu:
+   ```bash
+   sudo apt install appimagelauncher appimagetool
+   ```
+   `apt` ist die Paketverwaltung (Programm zum Installieren von Software).
+2. Fuehre das Script `./build_appimage.sh` aus:
+   ```bash
+   ./build_appimage.sh
+   ```
+   Danach liegt die Datei `experimental-agent.AppImage` im Projektordner.
+3. Diese Datei laesst sich auf anderen Linux-Systemen direkt starten.
