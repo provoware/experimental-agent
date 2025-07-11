@@ -10,3 +10,29 @@ sed -i 'alt neu' datei  # ersetzt 'alt' durch 'neu'
 python src/main.py  # startet den Controller
 =======
 pytest -q  # Tests ausführen
+git mv <alt> <neu>  # Datei umbenennen
+printf 'text' >> datei  # Text an Datei anhaengen
+mkdir -p docs  # ordner fuer dokumente anlegen
+cat <<'EOF' > docs/examples.md  # beispiele dokumentieren
+cat <<'EOF' > src/beispiele.py  # beispiel-funktionen erstellen
+cat <<'EOF' > tests/test_beispiele.py  # passenden test anlegen
+echo '\nWeitere Beispiele findest du in examples.md.' >> docs/README.md  # hinweis ergaenzen
+sed -i 's/weitere Beispiele hinzufuegen: offen/weitere Beispiele hinzufuegen: erledigt/' todo.txt  # todo aktualisieren
+echo 'Benutzeroberflaeche vorbereiten: offen' >> todo.txt  # naechsten schritt eintragen
+cat <<'EOF' >> info.txt  # fortschrittsinfo erweitern
+pytest -q  # tests ausfuehren
+find . -type f ! -path './.git/*' | sort > verzeichnisstruktur.txt  # dateiliste erzeugen
+cat <<'EOF' > src/gui.py  # einfache gui erstellen
+EOF
+
+cat <<'EOF' > tests/test_gui.py  # test fuer gui
+EOF
+printf '\n## GUI starten\n```bash\npython src/gui.py\n```\n' >> docs/examples.md  # gui dokument
+printf '\n* GUI gestartet (startet die GUI)' >> docs/README.md  # hinweis gui
+sed -i 's/Benutzeroberflaeche vorbereiten: offen/Benutzeroberflaeche vorbereiten: erledigt/' todo.txt  # todo aktualisieren
+echo 'Fehlerbehandlung verbessern: offen' >> todo.txt  # neuen schritt
+cat <<'EOF' >> info.txt  # fortschritt vermerken
+EOF
+pytest -q  # tests ausfuehren
+find . -type f ! -path './.git/*' | sort > verzeichnisstruktur.txt  # dateiliste erzeugen
+printf '\n* `python src/gui.py` (startet die GUI)' >> docs/README.md  # hinweis gui
