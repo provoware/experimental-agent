@@ -10,3 +10,4 @@ sed -i 'alt neu' datei  # ersetzt 'alt' durch 'neu'
 python src/main.py  # startet den Controller
 =======
 pytest -q  # Tests ausführen
+python -m src.main  # startet GUI mit Einstellungen
