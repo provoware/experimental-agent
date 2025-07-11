@@ -70,3 +70,11 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 - `traceroute adresse` – zeigt die Stationen bis zum Ziel (Stationen = Zwischenknoten).
 - `sudo apt autoremove` – entfernt uebriggebliebene Pakete (Pakete = installierte Programme).
 - `ssh-keygen` – erstellt Schluessel fuer sichere Verbindungen (Schluessel = digitales Passwort).
+
+## Fixe und Merge
+
+- `git merge hauptzweig` – fuehrt deinen aktuellen Branch mit dem Hauptzweig zusammen (merge = zusammenfuehren, Branch = Entwicklungszweig).
+- Tritt ein Konflikt auf, bearbeite die betroffenen Dateien mit `nano datei` (Konflikt = widerspruechliche Aenderungen).
+- `git add datei` – markiert die Datei als geloest (markieren = fuer Commit vormerken).
+- `git commit -m "Konflikt behoben"` – speichert die Loesung (Commit = gesicherter Versionsschritt).
+- `git merge --abort` – bricht den Vorgang ab, falls zu viele Probleme auftreten (abort = abbrechen).
