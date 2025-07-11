@@ -39,3 +39,7 @@ Die Sammlung dort enthält jetzt auch Befehle wie `pwd`, `cat`, `nano`, `history
 Es gibt auch eine kleine grafische Oberflaeche. Mit `python src/gui.py` startest du sie und kannst den Controller per Knopfdruck aufrufen.
 Die Tippsdatei enthaelt zudem neue Befehle wie `less`, `tail` und `ssh`.
 Auch Befehle wie `free -m`, `whoami`, `ping` und `traceroute` sind nun erklaert.
+
+## Release vorbereiten
+
+Eine ausfuehrbare Datei laesst sich mit **PyInstaller** und **AppImageTool** erstellen. Siehe `release.md` fuer Details.

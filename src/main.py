@@ -1,5 +1,6 @@
 """Hauptmodul."""
 
+
 class Controller:
     """Unveraenderlicher zentraler Controller."""
 
@@ -15,9 +16,11 @@ class Controller:
         """Versucht einfache Fehler selbst zu beheben."""
         return "Selbstheilung aktiviert"
 
+
 def hauptfunktion():
     """Gibt eine Grußnachricht zurück."""
     return "Hallo Welt"
+
 
 if __name__ == "__main__":
     print(Controller().run())

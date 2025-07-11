@@ -16,12 +16,14 @@
 ./docs/LAIENTIPPS.md
 ./docs/README.md
 ./docs/anleitung.md
+./docs/release.md
 ./info.txt
 ./iterate.sh
 ./requirements.txt
 ./src/__init__.py
 ./src/__pycache__/__init__.cpython-312.pyc
 ./src/__pycache__/gui.cpython-312.pyc
+./src/__pycache__/main.cpython-312.pyc
 ./src/gui.py
 ./src/main.py
 ./src/placeholder.done

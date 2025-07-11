@@ -71,6 +71,12 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 - `sudo apt autoremove` – entfernt uebriggebliebene Pakete (Pakete = installierte Programme).
 - `ssh-keygen` – erstellt Schluessel fuer sichere Verbindungen (Schluessel = digitales Passwort).
 
+## Programm verpacken (Release)
+
+- `pip install pyinstaller` – installiert **PyInstaller** (Werkzeug zum Erstellen einer einzigen ausfuehrbaren Datei).
+- `pyinstaller --onefile src/main.py` – baut daraus ein einzelnes Programm, das ohne Python-Installation laeuft.
+- `appimagetool dist/main` – erstellt daraus eine **AppImage**-Datei (AppImage = portables Linux-Programm).
+
 ## Weitere nuetzliche Befehle
 
 - `history` – zeigt die zuletzt eingegebenen Kommandos an (Kommandos = Befehle im Terminal).
