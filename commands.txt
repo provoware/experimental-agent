@@ -16,6 +16,7 @@ pip install -r requirements.txt  # Abhängigkeiten mit pip installieren
 git pull  # Änderungen vom Server holen
 git branch <name>  # neuen Branch (Entwicklungszweig) erstellen
 git checkout <name>  # zu einem Branch wechseln
+git merge <name>  # Branch zusammenfuehren
 pip uninstall <paket>  # Paket deinstallieren
 python <datei>  # Python-Skript starten
 ls  # zeigt Dateien und Ordner an
