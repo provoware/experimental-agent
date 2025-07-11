@@ -56,3 +56,9 @@ ping <adresse>  # Verbindung testen
 traceroute <adresse>  # Netzwerkwege anzeigen
 sudo apt autoremove  # nicht mehr benoetigte Pakete entfernen
 ssh-keygen  # Schluessel erzeugen
+alias ll='ls -l'  # Befehlskuerzel definieren
+echo 'alias ll="ls -l"' >> ~/.bashrc  # Alias dauerhaft speichern
+source ~/.bashrc  # Aenderungen einlesen
+export PATH="$PATH:/opt/neues"  # Ordner zum Programmpfad hinzufuegen
+crontab -e  # zeitgesteuerte Aufgaben bearbeiten
+rsync -av <quelle> <ziel>  # Ordner synchronisieren

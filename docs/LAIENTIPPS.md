@@ -70,3 +70,12 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 - `traceroute adresse` – zeigt die Stationen bis zum Ziel (Stationen = Zwischenknoten).
 - `sudo apt autoremove` – entfernt uebriggebliebene Pakete (Pakete = installierte Programme).
 - `ssh-keygen` – erstellt Schluessel fuer sichere Verbindungen (Schluessel = digitales Passwort).
+
+## Praktische Tricks
+
+- `alias ll='ls -l'` – legt ein Befehlskuerzel an (alias = alternative Befehlsbezeichnung).
+- `echo 'alias ll="ls -l"' >> ~/.bashrc` – speichert das Kuerzel dauerhaft (bashrc = Startdatei der Kommandozeile).
+- `source ~/.bashrc` – liest die Datei neu ein (source = einlesen), damit das Kuerzel sofort wirkt.
+- `export PATH="$PATH:/opt/neues"` – fuegt einen Ordner zum Suchpfad hinzu (Suchpfad = Liste, in der das System nach Programmen schaut).
+- `crontab -e` – oeffnet die Tabelle fuer automatische Aufgaben (crontab = Zeitplan fuer Befehle).
+- `rsync -av quelle ziel` – synchronisiert Dateien (synchronisieren = abgleichen von Ordnern).
