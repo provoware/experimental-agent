@@ -10,4 +10,5 @@ Dokumentation erweitern: erledigt
 Hauptfunktion implementieren: erledigt
 Neue Tests erweitern: erledigt
 Dokumentation ergaenzen: erledigt
+Aufgabenreihenfolge erstellen: erledigt
 Release vorbereiten: offen
