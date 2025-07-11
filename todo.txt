@@ -13,3 +13,4 @@ Dokumentation ergaenzen: erledigt
 Aufgabenreihenfolge erstellen: erledigt
 Release vorbereiten: offen
 Selbstheilung implementieren: erledigt
+Laienvorschlaege ergaenzen: erledigt

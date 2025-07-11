@@ -34,3 +34,12 @@ Der Controller sorgt dafür, dass alle Teile des Systems ordnungsgemäß laufen.
 * `git add <datei>` fügt eine Datei zum nächsten Commit hinzu (Commit = gespeicherter Versionsschritt).
 * `git commit -m "Nachricht"` speichert die Änderungen dauerhaft.
 * `git push` überträgt den Commit auf den Server.
+
+### Laien-Tipps
+
+* `git pull` holt die neuesten Daten vom Server (Server = zentrale Ablage).
+* `git branch neuer-zweig` erstellt einen neuen Branch (Branch = Entwicklungszweig).
+* `git checkout neuer-zweig` wechselt auf den neuen Branch.
+* `python beispiel.py` führt ein Python-Programm aus (Python = Programmiersprache).
+* `pip uninstall paketname` entfernt ein Paket (Paket = Sammlung von Programmteilen).
+Weitere ausführliche Hinweise findest du in `docs/LAIENTIPPS.md`.

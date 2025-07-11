@@ -30,3 +30,7 @@ Damit ist die Umgebung bereit für die Ausführung.
 * `git add <datei>` nimmt die Datei in den nächsten Commit (Versionsschritt) auf.
 * `git commit -m "Nachricht"` speichert diesen Schritt lokal.
 * `git push` sendet den Commit zum Server.
+
+## Laien-Tipps
+
+Weitere einfache Vorschläge stehen in `LAIENTIPPS.md`. Dort sind alle Befehle ausgeschrieben und Fachbegriffe (wie *Branch* oder *Server*) kurz erklärt.

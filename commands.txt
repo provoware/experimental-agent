@@ -13,3 +13,8 @@ pytest -q  # Tests ausführen
 sudo apt update  # Paketlisten aktualisieren
 sudo apt install python3 python3-venv python3-pip  # Python und Tools installieren
 pip install -r requirements.txt  # Abhängigkeiten mit pip installieren
+git pull  # Änderungen vom Server holen
+git branch <name>  # neuen Branch (Entwicklungszweig) erstellen
+git checkout <name>  # zu einem Branch wechseln
+pip uninstall <paket>  # Paket deinstallieren
+python <datei>  # Python-Skript starten

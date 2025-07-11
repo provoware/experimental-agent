@@ -6,6 +6,7 @@
 ./actions.log
 ./commands.txt
 ./docs/AUFGABENREIHENFOLGE.md
+./docs/LAIENTIPPS.md
 ./docs/README.md
 ./info.txt
 ./requirements.txt
