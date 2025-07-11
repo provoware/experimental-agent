@@ -27,3 +27,4 @@ Hauptmodul repariert: erledigt
 Funktion zum Modul-Hinzufügen: erledigt
 Laienvorschläge erweitert: erledigt
 Module in GUI integrieren: erledigt
+Noch weiterfuehrende Laienbefehle: erledigt

@@ -80,3 +80,14 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 - `git diff` – zeigt die aktuellen Unterschiede an (Unterschiede = Änderungen seit dem letzten Commit).
 - `git cherry-pick <hash>` – übernimmt einen bestimmten Commit von einem anderen Zweig (Commit = gespeicherter Arbeitsschritt).
 - `git tag -a v1.0 -m "Text"` – erstellt eine Markierung (Tag = fester Punkt in der Historie) mit Beschreibung.
+
+## Noch mehr Versionskontrolle
+
+- `git rebase main` – wendet deine Arbeit auf die aktuelle Hauptlinie an (rebase = neu ausrichten).
+- `git commit --amend` – ändert den letzten Commit (Commit = gespeicherter Arbeitsschritt) nachträglich.
+- `git bisect start` – hilft einen Fehler schnell zu finden (bisect = halbieren).
+- `git bisect good <hash>` – markiert eine Version ohne Fehler.
+- `git bisect bad <hash>` – markiert eine Version mit dem Fehler.
+- `git clean -f` – entfernt unversionierte Dateien (unversioniert = nicht in Git).
+- `git remote add origin <URL>` – verbindet dein Projekt mit einem Server (Server = zentrale Ablage).
+- `git push origin main` – überträgt deine Arbeit zum Server.

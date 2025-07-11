@@ -1,2 +1,2 @@
-Letzter Schritt: Module in GUI integriert
+Letzter Schritt: Noch weiterfuehrende Laienbefehle
 Nächster Schritt: Release vorbereiten
