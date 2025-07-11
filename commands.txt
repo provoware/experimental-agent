@@ -16,6 +16,10 @@ python -m venv venv  # erstellt virtuelle Umgebung
 source venv/bin/activate  # aktiviert virtuelle Umgebung
 deactivate  # beendet virtuelle Umgebung
 pip install -r requirements.txt  # installiert Abhängigkeiten
+git stash  # sichert aktuelle Änderungen zwischen
+git rebase -i HEAD~3  # bearbeitet die letzten drei Commits interaktiv
+git diff  # zeigt Unterschiede zwischen Dateien
+git restore <datei>  # stellt eine Datei wieder her
 cp quelle ziel  # kopiert eine Datei
 tar -czf archiv.tar.gz ordner  # erstellt ein Archiv
 tar -xzf archiv.tar.gz -C ziel  # entpackt ein Archiv

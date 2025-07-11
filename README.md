@@ -22,10 +22,12 @@ Dieses Projekt zeigt einen unveränderlichen zentralen Controller. Er lässt sic
 
 - `git branch` (listet alle Entwicklungszweige [Branches] auf).
 - `git checkout -b <name>` (erstellt und wechselt in einen neuen Entwicklungszweig [Branch]).
-- `python -m venv venv` (legt eine virtuelle Umgebung [isolierter Python-Arbeitsbereich] an).
-- `source venv/bin/activate` (aktiviert die virtuelle Umgebung).
 - `pip install -r requirements.txt` (installiert benötigte Pakete [Dependencies]).
 - `git remote -v` (zeigt die eingerichteten entfernten Server [Remote-Repositories]).
+- `git stash` (sichert aktuelle Änderungen zwischen [temporäres Verstauen]).
+- `git rebase -i HEAD~3` (bearbeitet die letzten drei Versionen [interaktives Rebase]).
+- `git diff` (zeigt Unterschiede zwischen Dateien [Diff]).
+- `git restore <datei>` (stellt eine Datei wieder her [Restore]).
 
 ## Ordnerstruktur
 

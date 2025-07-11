@@ -1,2 +1,2 @@
-Letzter Schritt: Dokumentation verbessert
-Naechster Schritt: Code optimieren
+Letzter Schritt: Code optimiert
+Naechster Schritt: Benutzerfreundlichkeit verbessern

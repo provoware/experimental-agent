@@ -37,3 +37,11 @@ def test_dashboard_structure():
     assert hasattr(c.dashboard, 'right_sidebar')
     assert len(c.dashboard.footer.columns) == 4
 
+
+def test_dashboard_overview():
+    c = Controller()
+    info = c.dashboard.overview()
+    assert info["header"] == "Dashboard"
+    assert isinstance(info["footer"], list)
+    assert len(info["footer"]) == 4
+

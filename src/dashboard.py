@@ -37,3 +37,12 @@ class Dashboard(GlobalSettings):
         self.right_sidebar = Sidebar("rechts")
         self.footer = Footer()
 
+    def overview(self) -> dict:
+        """Gibt eine einfache Übersicht des Dashboards zurück."""
+        return {
+            "header": self.header.title,
+            "left_sidebar_open": not self.left_sidebar.collapsed,
+            "right_sidebar_open": not self.right_sidebar.collapsed,
+            "footer": self.footer.columns,
+        }
+
