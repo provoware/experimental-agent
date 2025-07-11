@@ -1,0 +1,13 @@
+./.github/workflows/blank.yml
+./.gitignore
+./AGENTS.md
+./LICENSE
+./README.md
+./actions.log
+./commands.txt
+./docs/placeholder.todo
+./info.txt
+./src/placeholder.todo
+./tests/placeholder.todo
+./todo.txt
+./verzeichnisstruktur.txt

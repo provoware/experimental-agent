@@ -1,0 +1,2 @@
+Letzter Schritt: CI-Workflow erweitern
+Nächster Schritt: Weitere Tests schreiben
