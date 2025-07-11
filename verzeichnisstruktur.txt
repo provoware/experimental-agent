@@ -1,5 +1,6 @@
 ./.github/workflows/blank.yml
 ./.gitignore
+=======
 ./.pytest_cache/.gitignore
 ./.pytest_cache/CACHEDIR.TAG
 ./.pytest_cache/README.md
@@ -12,6 +13,11 @@
 ./docs/placeholder.todo
 ./info.txt
 ./src/__init__.py
+./src/main.py
+./src/placeholder.done
+./tests/placeholder.todo
+./tests/test_basic.py
+=======
 ./src/__pycache__/__init__.cpython-312.pyc
 ./src/__pycache__/main.cpython-312.pyc
 ./src/main.py
