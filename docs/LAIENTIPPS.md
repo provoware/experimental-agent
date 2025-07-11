@@ -70,3 +70,12 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 - `traceroute adresse` – zeigt die Stationen bis zum Ziel (Stationen = Zwischenknoten).
 - `sudo apt autoremove` – entfernt uebriggebliebene Pakete (Pakete = installierte Programme).
 - `ssh-keygen` – erstellt Schluessel fuer sichere Verbindungen (Schluessel = digitales Passwort).
+
+## Dateien durchsuchen
+
+- `grep -r "Text" .` – sucht rekursiv nach einem Wort (grep = Suchwerkzeug).
+- `find . -name "*.py"` – listet alle Python-Dateien auf (Python-Datei = Datei mit Code).
+
+## Code automatisch formatieren
+
+- `black src/` – formatiert alle Skripte (black = Formatierer fuer Python).
