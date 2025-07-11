@@ -70,3 +70,13 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 - `traceroute adresse` – zeigt die Stationen bis zum Ziel (Stationen = Zwischenknoten).
 - `sudo apt autoremove` – entfernt uebriggebliebene Pakete (Pakete = installierte Programme).
 - `ssh-keygen` – erstellt Schluessel fuer sichere Verbindungen (Schluessel = digitales Passwort).
+
+## Abschluss und Release
+
+- `pytest -q` – fuehrt zur Sicherheit alle Tests aus (Tests = automatische Pruefungen).
+- `git add .` – merkt alle Aenderungen fuer den naechsten Commit vor (Commit = gespeicherter Schritt).
+- `git commit -m "Nachricht"` – legt diesen Schritt lokal ab.
+- `git push` – uebertraegt den Commit zum Server (Server = zentrale Ablage fuer den Code).
+- `python -m pip install build` – installiert das Hilfswerkzeug zum Paketbau (Paketbau = Erstellen einer auslieferbaren Datei).
+- `python -m build` – erzeugt die fertigen Pakete im Verzeichnis `dist` (Verzeichnis = Ordner).
+- `ls dist` – zeigt die erstellten Dateien an.
