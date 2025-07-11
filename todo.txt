@@ -12,4 +12,6 @@ Neue Tests erweitern: erledigt
 Dokumentation ergänzen: erledigt
 README um weiterführende Tipps erweitern: erledigt
 Dokumentation vertiefen: erledigt
-Hilfsdokumentation ausbauen: offen
+Hilfsdokumentation ausbauen: erledigt
+Arbeits- und Datenordner anlegen: erledigt
+Weitere Module hinzufuegen: offen

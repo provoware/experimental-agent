@@ -1,2 +1,2 @@
-Letzter Schritt: Projekt geprüft und Anleitung überarbeitet
-Nächster Schritt: Dokumentation vertiefen
+Letzter Schritt: Ordner angelegt und Anleitung erweitert
+Naechster Schritt: Hilfsdokumentation ausbauen

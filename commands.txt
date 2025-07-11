@@ -16,3 +16,4 @@ python -m venv venv  # erstellt virtuelle Umgebung
 source venv/bin/activate  # aktiviert virtuelle Umgebung
 deactivate  # beendet virtuelle Umgebung
 pip install -r requirements.txt  # installiert Abhängigkeiten
+cp quelle ziel  # kopiert eine Datei

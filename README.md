@@ -28,3 +28,17 @@ Dieses Projekt zeigt einen unveränderlichen zentralen Controller. Er lässt sic
 - `source venv/bin/activate` (aktiviert die virtuelle Umgebung).
 - `pip install -r requirements.txt` (installiert benötigte Pakete [Dependencies]).
 - `git remote -v` (zeigt die eingerichteten entfernten Server [Remote-Repositories]).
+
+## Ordnerstruktur
+
+- `src` enthaelt den Programmcode (Tool).
+- `work/` ist dein Arbeitsordner (eigene Dateien).
+- `user_data/` speichert persoenliche Daten.
+- `backup/` bewahrt Sicherungskopien (Backups) auf.
+
+## Weitere Laienvorschlaege
+
+- `mkdir backup work user_data` (erstellt Ordner [Directories]).
+- `touch work/beispiel.txt` (legt eine neue Datei [File] an).
+- `cp quelle ziel` (kopiert eine Datei [Copy]).
+

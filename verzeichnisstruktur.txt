@@ -4,6 +4,7 @@
 ./LICENSE
 ./README.md
 ./actions.log
+./backup/placeholder.todo
 ./commands.txt
 ./docs/placeholder.todo
 ./info.txt
@@ -15,4 +16,6 @@
 ./tests/test_basic.py
 ./tests/test_main.py
 ./todo.txt
+./user_data/placeholder.todo
 ./verzeichnisstruktur.txt
+./work/placeholder.todo
