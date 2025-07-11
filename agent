@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+import sys
+
+from src.modules.audioplayer import gui
+
+
+def main():
+    if len(sys.argv) > 1 and sys.argv[1] == "audioplayer":
+        gui.main()
+    else:
+        print("Verwendung: agent audioplayer")
+
+
+if __name__ == "__main__":
+    main()
