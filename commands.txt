@@ -22,3 +22,8 @@ ls  # zeigt Dateien und Ordner an
 cd ..  # eine Ebene hoeher wechseln
 cp <quelle> <ziel>  # Datei kopieren
 mv <quelle> <ziel>  # Datei verschieben oder umbenennen
+pwd  # aktuellen Pfad anzeigen
+cat <datei>  # Inhalt einer Datei anzeigen
+nano <datei>  # einfache Textdatei bearbeiten
+grep <wort> <datei>  # nach Text in Datei suchen
+python -m pip install <paket>  # Paket per Python installieren

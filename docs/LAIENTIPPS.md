@@ -19,3 +19,11 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 - `touch datei.txt` – erstellt eine leere Datei (Datei = einzelnes Dokument).
 - `cp quelle ziel` – kopiert eine Datei (kopieren = duplizieren).
 - `mv quelle ziel` – verschiebt oder benennt eine Datei um (verschieben = an anderen Ort legen).
+
+## Weitere nuetzliche Befehle
+
+- `pwd` – zeigt den aktuellen Pfad an (Pfad = Position im Dateisystem).
+- `cat datei.txt` – gibt den Inhalt einer Datei aus (Inhalt = gespeicherter Text).
+- `nano datei.txt` – oeffnet einen einfachen Editor (Editor = Programm zum Bearbeiten von Dateien).
+- `grep wort datei.txt` – sucht nach einem Wort in einer Datei (suchen = durchsuchen nach Text).
+- `python -m pip install paket` – installiert ein Paket ueber Python (Paket = Sammlung von Programmteilen).
