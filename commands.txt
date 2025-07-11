@@ -10,3 +10,6 @@ sed -i 'alt neu' datei  # ersetzt 'alt' durch 'neu'
 python src/main.py  # startet den Controller
 =======
 pytest -q  # Tests ausführen
+touch placeholder.todo  # Platzhalter-Datei im aktuellen Ordner
+touch .github/placeholder.todo  # Platzhalter für GitHub-Konfiguration
+touch .github/workflows/placeholder.todo  # Platzhalter für Workflows

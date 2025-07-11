@@ -3,3 +3,7 @@ Nächster Schritt: Dokumentation erweitern
 =======
 Letzter Schritt: Tests erweitert
 Nächster Schritt: Dokumentation ergaenzen
+
+=======
+Letzter Schritt: Platzhalterdateien ergaenzt
+Naechster Schritt: Dokumentation ergaenzen

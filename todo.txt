@@ -11,3 +11,4 @@ Dokumentation erweitern: offen
 Hauptfunktion implementieren: erledigt
 Neue Tests erweitern: erledigt
 Dokumentation ergaenzen: offen
+Platzhalterdateien ergaenzen: erledigt
