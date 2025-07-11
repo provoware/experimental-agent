@@ -6,8 +6,17 @@ verzeichnisstruktur.txt erzeugen: erledigt
 CI-Workflow erweitern: erledigt
 Tests hinzufügen: erledigt
 Hauptmodul implementieren: erledigt
-Dokumentation erweitern: offen
-=======
+Dokumentation erweitern: erledigt
 Hauptfunktion implementieren: erledigt
 Neue Tests erweitern: erledigt
-Dokumentation ergaenzen: offen
+Dokumentation ergaenzen: erledigt
+Aufgabenreihenfolge erstellen: erledigt
+Release vorbereiten: offen
+Selbstheilung implementieren: erledigt
+Laienvorschlaege ergaenzen: erledigt
+Dateien vervollstaendigen: erledigt
+Laienvorschlaege erweitern: erledigt
+Weiterfuehrende Laienbefehle: erledigt
+Noch mehr Laienbefehle: erledigt
+Interaktive GUI erstellen: erledigt
+Zusatzbefehle ergaenzen: erledigt

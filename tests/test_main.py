@@ -1,18 +1,18 @@
-import sys, os
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
+import os
+import sys
 
-from main import Controller
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
+
+from main import Controller, hauptfunktion
+
 
 def test_run_returns_message():
     c = Controller()
     assert c.run() == "Controller laeuft"
-=======
-import os
-import sys
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
-from src.main import hauptfunktion
+def test_self_heal():
+    c = Controller()
+    assert c.self_heal() == "Selbstheilung aktiviert"
 
 
 def test_hauptfunktion():
