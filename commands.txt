@@ -1,6 +1,7 @@
 git add <datei>  # Datei zum nächsten Commit vormerken
 git commit -m "Nachricht"  # Änderungen lokal speichern
 git push  # Änderungen auf den Server laden
+git status  # zeigt den Zustand des Arbeitsverzeichnisses
 mkdir -p <ordner>  # erstellt Ordner
 touch <datei>  # erstellt leere Datei
 find . -type f ! -path './.git/*' | sort > verzeichnisstruktur.txt  # erzeugt Dateiliste
@@ -9,3 +10,49 @@ rm -rf .pytest_cache  # entfernt Test-Zwischenspeicher
 sed -i 'alt neu' datei  # ersetzt 'alt' durch 'neu'
 python src/main.py  # startet den Controller
 pytest -q  # Tests ausführen
+sudo apt update  # Paketlisten aktualisieren
+sudo apt install python3 python3-venv python3-pip  # Python und Tools installieren
+pip install -r requirements.txt  # Abhängigkeiten mit pip installieren
+git pull  # Änderungen vom Server holen
+git branch <name>  # neuen Branch (Entwicklungszweig) erstellen
+git checkout <name>  # zu einem Branch wechseln
+pip uninstall <paket>  # Paket deinstallieren
+python <datei>  # Python-Skript starten
+ls  # zeigt Dateien und Ordner an
+cd ..  # eine Ebene hoeher wechseln
+cp <quelle> <ziel>  # Datei kopieren
+mv <quelle> <ziel>  # Datei verschieben oder umbenennen
+pwd  # aktuellen Pfad anzeigen
+cat <datei>  # Inhalt einer Datei anzeigen
+nano <datei>  # einfache Textdatei bearbeiten
+grep <wort> <datei>  # nach Text in Datei suchen
+python -m pip install <paket>  # Paket per Python installieren
+history  # zuvor eingegebene Befehle anzeigen
+man <befehl>  # Handbuchseite zu einem Befehl oeffnen
+chmod +x <datei.sh>  # Datei ausfuehrbar machen
+tar -czf <archiv.tar.gz> <ordner>  # Verzeichnis als Archiv packen
+sudo <befehl>  # Befehl mit Administratorrechten ausfuehren
+apt update && apt upgrade  # Systempakete aktualisieren
+df -h  # Speicherplatz anzeigen
+top  # laufende Programme in Echtzeit
+ps aux  # Prozesse auflisten
+kill <PID>  # Prozess beenden
+curl <url>  # Daten aus dem Internet abrufen
+wget <url>  # Datei aus dem Internet speichern
+python src/gui.py  # startet grafische Oberflaeche
+less <datei>  # Datei seitenweise anzeigen
+head -n 10 <datei>  # erste Zeilen einer Datei
+tail -n 10 <datei>  # letzte Zeilen einer Datei
+du -sh <ordner>  # Speicherbedarf eines Ordners
+ip a  # Netzwerkinformationen anzeigen
+ssh benutzer@host  # Verbindung zu anderem Rechner aufbauen
+scp <datei> benutzer@host:/pfad  # Datei uebertragen
+free -m  # freien Arbeitsspeicher anzeigen
+uptime  # Betriebsdauer anzeigen
+whoami  # aktuellen Benutzer zeigen
+which <befehl>  # Pfad zu einem Programm anzeigen
+uname -a  # Details zum Betriebssystem
+ping <adresse>  # Verbindung testen
+traceroute <adresse>  # Netzwerkwege anzeigen
+sudo apt autoremove  # nicht mehr benoetigte Pakete entfernen
+ssh-keygen  # Schluessel erzeugen
