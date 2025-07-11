@@ -1,18 +1,12 @@
-import sys, os
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
-
-from main import Controller
-
-def test_run_returns_message():
-    c = Controller()
-    assert c.run() == "Controller laeuft"
-=======
 import os
 import sys
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.insert(
+    0,
+    os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+)
 
-from src.main import hauptfunktion
+from src.main import hauptfunktion  # noqa: E402
 
 
 def test_hauptfunktion():
