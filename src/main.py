@@ -10,3 +10,10 @@ class Controller:
 
 if __name__ == "__main__":
     print(Controller().run())
+=======
+"""Hauptmodul."""
+
+
+def hauptfunktion():
+    """Gibt eine Grußnachricht zurück."""
+    return "Hallo Welt"

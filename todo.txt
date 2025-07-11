@@ -7,3 +7,7 @@ CI-Workflow erweitern: erledigt
 Tests hinzufügen: erledigt
 Hauptmodul implementieren: erledigt
 Dokumentation erweitern: offen
+=======
+Hauptfunktion implementieren: erledigt
+Neue Tests erweitern: erledigt
+Dokumentation ergaenzen: offen

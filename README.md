@@ -8,4 +8,6 @@ Dieses Projekt zeigt einen unveränderlichen zentralen Controller. Er lässt sic
 2. `cd experimental-agent` (wechseln in den Projektordner)
 3. `pytest` (startet die Tests)
 4. `python src/main.py` (startet den Controller)
+=======
+3. `pytest` (startet die Tests, falls welche existieren)
 
