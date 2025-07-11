@@ -55,6 +55,6 @@ Der Controller sorgt dafür, dass alle Teile des Systems ordnungsgemäß laufen.
 Weitere ausführliche Hinweise findest du in `docs/LAIENTIPPS.md`.
 Die Liste dort enthaelt jetzt auch Befehle wie `pwd`, `cat`, `nano`, `history`, `man`, `apt update`, `df -h`, `curl` und `wget`, jeweils kurz beschrieben.
 
-Zusaetzlich gibt es eine kleine grafische Oberflaeche. Starte sie mit `python src/gui.py`.
+Zusaetzlich gibt es eine kleine grafische Oberflaeche. Starte sie bequem mit `python start_gui.py`.
 Die Tippsdatei enthaelt jetzt auch Befehle wie `less`, `tail` oder `ssh`.
 Die Sammlung wurde um Kommandos wie `free -m`, `whoami`, `ping` und `traceroute` erweitert.

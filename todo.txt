@@ -21,3 +21,4 @@ Noch mehr Laienbefehle: erledigt
 Interaktive GUI erstellen: erledigt
 Zusatzbefehle ergaenzen: erledigt
 
+Startskript fuer GUI: erledigt

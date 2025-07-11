@@ -1,4 +1,4 @@
 Letzter Schritt: Tests erweitert
 Nächster Schritt: Dokumentation ergaenzen
-Letzter Schritt: Zusatzbefehle ergaenzt
+Letzter Schritt: Startskript fuer GUI erstellt
 Nächster Schritt: Release vorbereiten
