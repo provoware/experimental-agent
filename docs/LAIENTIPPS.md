@@ -70,3 +70,10 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 - `traceroute adresse` – zeigt die Stationen bis zum Ziel (Stationen = Zwischenknoten).
 - `sudo apt autoremove` – entfernt uebriggebliebene Pakete (Pakete = installierte Programme).
 - `ssh-keygen` – erstellt Schluessel fuer sichere Verbindungen (Schluessel = digitales Passwort).
+
+## GUI nutzen
+
+- `python3 -m tkinter` – prueft, ob Tkinter vorhanden ist (Tkinter = Bibliothek fuer einfache Fenster).
+- `sudo apt install python3-tk` – installiert Tkinter, falls es fehlt (installieren = Software hinzufuegen).
+- `python src/gui.py` – startet die grafische Oberflaeche (GUI = grafische Benutzeroberflaeche). Schliessen mit dem Button "Beenden".
+
