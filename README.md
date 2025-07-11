@@ -11,3 +11,12 @@ Dieses Projekt zeigt einen unveränderlichen zentralen Controller. Er lässt sic
 =======
 3. `pytest` (startet die Tests, falls welche existieren)
 
+
+## Weiterfuehrende Vorschlaege fuer Einsteiger
+
+- **Werkzeuge installieren**: `python -m pip install flake8 pytest build` (installiert die benoetigten Tools).
+- **Code-Analyse (lint)**: `flake8 .` prueft den Code auf typische Fehler.
+- **Tests ausfuehren**: `pytest` startet die automatischen Tests.
+- **Build** (Paket erzeugen): `python -m build` erstellt ein installierbares Paket.
+
+Der neue CI-Workflow fuehrt diese Schritte automatisch aus.
