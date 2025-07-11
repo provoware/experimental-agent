@@ -1,0 +1,2 @@
+Letzter Schritt: Tests hinzugefuegt
+Nächster Schritt: Hauptmodul implementieren

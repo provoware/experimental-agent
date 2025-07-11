@@ -1,0 +1,9 @@
+git add <datei>  # Datei zum nächsten Commit vormerken
+git commit -m "Nachricht"  # Änderungen lokal speichern
+git push  # Änderungen auf den Server laden
+mkdir -p <ordner>  # erstellt Ordner
+touch <datei>  # erstellt leere Datei
+find . -type f ! -path './.git/*' | sort > verzeichnisstruktur.txt  # erzeugt Dateiliste
+pytest  # startet Tests
+rm -rf .pytest_cache  # entfernt Test-Zwischenspeicher
+sed -i 'alt neu' datei  # ersetzt 'alt' durch 'neu'
