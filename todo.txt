@@ -22,3 +22,5 @@ Interaktive GUI erstellen: erledigt
 Zusatzbefehle ergaenzen: erledigt
 
 Verzeichnisstruktur aktualisieren: erledigt
+Ansicht optimiert: erledigt
+Hauptmodul repariert: erledigt

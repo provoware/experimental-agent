@@ -70,3 +70,8 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 - `traceroute adresse` – zeigt die Stationen bis zum Ziel (Stationen = Zwischenknoten).
 - `sudo apt autoremove` – entfernt uebriggebliebene Pakete (Pakete = installierte Programme).
 - `ssh-keygen` – erstellt Schluessel fuer sichere Verbindungen (Schluessel = digitales Passwort).
+
+## Versionskontrolle erweitern
+
+- `git log` – zeigt die Historie an (Historie = Liste aller Commits).
+- `git stash` – legt Änderungen vorübergehend beiseite (beiseitelegen = speichern ohne Commit).
