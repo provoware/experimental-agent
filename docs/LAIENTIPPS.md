@@ -70,3 +70,9 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 - `traceroute adresse` – zeigt die Stationen bis zum Ziel (Stationen = Zwischenknoten).
 - `sudo apt autoremove` – entfernt uebriggebliebene Pakete (Pakete = installierte Programme).
 - `ssh-keygen` – erstellt Schluessel fuer sichere Verbindungen (Schluessel = digitales Passwort).
+
+## Umgang mit YAML
+
+- `pip install yq` – installiert das Tool yq (Tool = Programm zum Bearbeiten von YAML).
+- `yq -y . datei.yml` – zeigt die Datei an und prueft sie auf Fehler (YAML = Konfigurationsdatei-Format).
+- `nano datei.yml` – oeffnet die Datei zum Bearbeiten (Bearbeiten = Aenderungen vornehmen).

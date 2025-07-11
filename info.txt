@@ -2,3 +2,5 @@ Letzter Schritt: Tests erweitert
 Nächster Schritt: Dokumentation ergaenzen
 Letzter Schritt: Zusatzbefehle ergaenzt
 Nächster Schritt: Release vorbereiten
+Letzter Schritt: Iterconfig aktualisiert
+Nächster Schritt: Release vorbereiten
