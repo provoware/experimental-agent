@@ -1,5 +1,9 @@
 Letzter Schritt: Hauptmodul implementiert
-Nächster Schritt: Dokumentation erweitern
+Naechster Schritt: Dokumentation erweitern
 =======
 Letzter Schritt: Tests erweitert
-Nächster Schritt: Dokumentation ergaenzen
+Naechster Schritt: Dokumentation ergaenzen
+
+=======
+Letzter Schritt: Dokumentation erstellt
+Naechster Schritt: weitere Beispiele hinzufuegen
