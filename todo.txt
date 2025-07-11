@@ -20,4 +20,5 @@ Weiterfuehrende Laienbefehle: erledigt
 Noch mehr Laienbefehle: erledigt
 Interaktive GUI erstellen: erledigt
 Zusatzbefehle ergaenzen: erledigt
+Fortgeschrittene Laienbefehle ergaenzen: erledigt
 

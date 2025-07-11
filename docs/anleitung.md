@@ -20,3 +20,10 @@ So pruefst du, ob alles funktioniert.
 touch src/neues_modul.py
 ```
 Damit erstellst du eine neue Datei fuer zusaetzliche Funktionen (Module).
+
+## 4. Release vorbereiten (Release = fertige Version)
+```bash
+pip install --upgrade build
+python -m build
+```
+Damit erzeugst du aus dem Projekt ein Paket, das leicht verteilt werden kann.
