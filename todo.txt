@@ -11,4 +11,5 @@ Hauptfunktion implementieren: erledigt
 Neue Tests erweitern: erledigt
 Dokumentation ergänzen: erledigt
 README um weiterführende Tipps erweitern: erledigt
-Dokumentation vertiefen: offen
+Dokumentation vertiefen: erledigt
+Hilfsdokumentation ausbauen: offen

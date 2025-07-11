@@ -9,3 +9,10 @@ rm -rf .pytest_cache  # entfernt Test-Zwischenspeicher
 sed -i 'alt neu' datei  # ersetzt 'alt' durch 'neu'
 python src/main.py  # startet den Controller
 pytest -q  # Tests ausführen
+git help <befehl>  # zeigt die Hilfeseite zu einem git-Befehl
+git log  # zeigt die letzten Commits
+git remote -v  # listet entfernte Server auf
+python -m venv venv  # erstellt virtuelle Umgebung
+source venv/bin/activate  # aktiviert virtuelle Umgebung
+deactivate  # beendet virtuelle Umgebung
+pip install -r requirements.txt  # installiert Abhängigkeiten
