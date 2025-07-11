@@ -1,0 +1,7 @@
+[tool.semantic_release]
+version_variable = 'src/__init__.py:__version__'
+branch = 'work'
+changelog_file = 'CHANGELOG.md'
+
+[tool.semantic_release.branches.work]
+match = 'work'

@@ -11,3 +11,4 @@ Dieses Projekt zeigt einen unveränderlichen zentralen Controller. Er lässt sic
 =======
 3. `pytest` (startet die Tests, falls welche existieren)
 
+\nWeitere Hinweise zur Veröffentlichung findest du unter docs/release_instructions.md.
