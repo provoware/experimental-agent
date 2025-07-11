@@ -7,7 +7,10 @@
 ./commands.txt
 ./docs/placeholder.todo
 ./info.txt
+./src/__init__.py
+./src/main.py
 ./src/placeholder.todo
 ./tests/placeholder.todo
+./tests/test_main.py
 ./todo.txt
 ./verzeichnisstruktur.txt

@@ -1,2 +1,2 @@
-Letzter Schritt: CI-Workflow erweitern
-Nächster Schritt: Weitere Tests schreiben
+Letzter Schritt: Grundfunktion und einfachen Test hinzugefügt
+Nächster Schritt: Hauptfunktion implementieren

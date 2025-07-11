@@ -4,3 +4,5 @@ Ordnerstruktur aufbauen: erledigt
 commands.txt und actions.log erstellen: erledigt
 verzeichnisstruktur.txt erzeugen: erledigt
 CI-Workflow erweitern: erledigt
+Hauptfunktion implementieren: offen
+Neue Tests erweitern: offen
