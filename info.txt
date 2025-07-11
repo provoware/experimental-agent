@@ -1,2 +1,2 @@
-Letzter Schritt: Ordner angelegt und Anleitung erweitert
-Naechster Schritt: Hilfsdokumentation ausbauen
+Letzter Schritt: Neue Module fuer Dashboard und Import/Export erstellt
+Naechster Schritt: Dokumentation verbessern

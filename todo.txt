@@ -14,4 +14,5 @@ README um weiterführende Tipps erweitern: erledigt
 Dokumentation vertiefen: erledigt
 Hilfsdokumentation ausbauen: erledigt
 Arbeits- und Datenordner anlegen: erledigt
-Weitere Module hinzufuegen: offen
+Weitere Module hinzufuegen: erledigt
+Dokumentation verbessern: offen

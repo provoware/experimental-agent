@@ -36,9 +36,15 @@ Dieses Projekt zeigt einen unveränderlichen zentralen Controller. Er lässt sic
 - `user_data/` speichert persoenliche Daten.
 - `backup/` bewahrt Sicherungskopien (Backups) auf.
 
+Im Programm gibt es jetzt ein Dashboard mit Kopfbereich, zwei aufklappbaren
+Seitenleisten und einem Fussbereich mit vier Spalten. Die Steuerung erfolgt
+über das Hauptmodul, das gemeinsame Einstellungen (`GlobalSettings`) nutzt.
+
 ## Weitere Laienvorschlaege
 
 - `mkdir backup work user_data` (erstellt Ordner [Directories]).
 - `touch work/beispiel.txt` (legt eine neue Datei [File] an).
 - `cp quelle ziel` (kopiert eine Datei [Copy]).
+- `tar -czf backup.tar.gz backup` (erstellt ein Archiv [tarball]).
+- `tar -xzf backup.tar.gz` (entpackt ein Archiv).
 
