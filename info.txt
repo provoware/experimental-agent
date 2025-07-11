@@ -1,2 +1,2 @@
-Letzter Schritt: CI-Workflow erweitern
-Nächster Schritt: Weitere Tests schreiben
+Letzter Schritt: Tests erweitert
+Nächster Schritt: Dokumentation ergaenzen

@@ -5,3 +5,4 @@ mkdir -p <ordner>  # erstellt Ordner
 touch <datei>  # erstellt leere Datei
 find . -type f ! -path './.git/*' | sort > verzeichnisstruktur.txt  # erzeugt Dateiliste
 pytest  # startet Tests
+pytest -q  # Tests ausführen
