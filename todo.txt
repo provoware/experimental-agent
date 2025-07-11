@@ -6,8 +6,9 @@ verzeichnisstruktur.txt erzeugen: erledigt
 CI-Workflow erweitern: erledigt
 Tests hinzufügen: erledigt
 Hauptmodul implementieren: erledigt
-Dokumentation erweitern: offen
+Dokumentation erweitern: erledigt
 =======
 Hauptfunktion implementieren: erledigt
 Neue Tests erweitern: erledigt
-Dokumentation ergaenzen: offen
+Dokumentation ergaenzen: erledigt
+Benutzerhandbuch erweitern: offen
