@@ -19,3 +19,9 @@ pip install -r requirements.txt  # installiert Abhängigkeiten
 cp quelle ziel  # kopiert eine Datei
 tar -czf archiv.tar.gz ordner  # erstellt ein Archiv
 tar -xzf archiv.tar.gz -C ziel  # entpackt ein Archiv
+ls -l  # zeigt Dateien mit Details
+pwd  # zeigt aktuelles Verzeichnis
+cd ..  # wechselt in den Elternordner
+mv quelle ziel  # verschiebt oder benennt Datei um
+python --version  # zeigt installierte Python-Version
+pip list  # listet installierte Pakete auf

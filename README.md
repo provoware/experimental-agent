@@ -4,12 +4,10 @@ Dieses Projekt zeigt einen unveränderlichen zentralen Controller. Er lässt sic
 
 ## Schritt-für-Schritt-Anleitung
 
-1. `git clone <REPO-URL>` – Quellcode vom Server holen.
-2. `cd experimental-agent` – in den Projektordner wechseln.
-3. `python -m venv venv` – virtuelle Umgebung (getrennter Arbeitsbereich) anlegen.
-4. `source venv/bin/activate` – virtuelle Umgebung aktivieren.
-5. `pytest` – Tests ausführen.
-6. `python src/main.py` – Controller starten.
+1. `git clone <REPO-URL> && cd experimental-agent` – Quellcode holen und in den Projektordner wechseln.
+2. `python -m venv venv && source venv/bin/activate` – virtuelle Umgebung (getrennter Arbeitsbereich) anlegen und aktivieren.
+3. `pytest` – Tests ausführen.
+4. `python src/main.py` – Controller starten.
 
 ## Tipps für Einsteiger
 
@@ -48,3 +46,10 @@ Seitenleisten und einem Fussbereich mit vier Spalten. Die Steuerung erfolgt
 - `tar -czf backup.tar.gz backup` (erstellt ein Archiv [tarball]).
 - `tar -xzf backup.tar.gz` (entpackt ein Archiv).
 
+- `ls -l` (zeigt Dateien mit Details [Liste]).
+- `pwd` (zeigt den aktuellen Pfad [Arbeitsverzeichnis]).
+- `cd ..` (wechselt in den Elternordner [Parent Directory]).
+- `mv quelle ziel` (verschiebt oder benennt eine Datei um [move]).
+- `python --version` (zeigt die installierte Python-Version).
+- `pip list` (listet installierte Pakete [packages] auf).
+- `find . -type f ! -path './.git/*' | sort > verzeichnisstruktur.txt` (erstellt eine sortierte Dateiliste).

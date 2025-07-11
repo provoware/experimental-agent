@@ -15,4 +15,5 @@ Dokumentation vertiefen: erledigt
 Hilfsdokumentation ausbauen: erledigt
 Arbeits- und Datenordner anlegen: erledigt
 Weitere Module hinzufuegen: erledigt
-Dokumentation verbessern: offen
+Dokumentation verbessern: erledigt
+Code optimieren: offen
