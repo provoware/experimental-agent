@@ -70,3 +70,9 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 - `traceroute adresse` – zeigt die Stationen bis zum Ziel (Stationen = Zwischenknoten).
 - `sudo apt autoremove` – entfernt uebriggebliebene Pakete (Pakete = installierte Programme).
 - `ssh-keygen` – erstellt Schluessel fuer sichere Verbindungen (Schluessel = digitales Passwort).
+
+## AppImage bauen
+
+- `chmod +x build_appimage.sh` – macht das Skript ausfuehrbar (ausfuehrbar = kann gestartet werden).
+- `./build_appimage.sh` – erstellt die Datei `experimental-agent.AppImage`.
+- Diese Datei laesst sich direkt starten: `./experimental-agent.AppImage`.
