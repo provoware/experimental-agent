@@ -7,3 +7,6 @@ Naechster Schritt: Dokumentation ergaenzen
 =======
 Letzter Schritt: Dokumentation erstellt
 Naechster Schritt: weitere Beispiele hinzufuegen
+=======
+Letzter Schritt: weitere Beispiele hinzugefuegt
+Naechster Schritt: Benutzeroberflaeche vorbereiten

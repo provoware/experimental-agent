@@ -12,3 +12,13 @@ python src/main.py  # startet den Controller
 pytest -q  # Tests ausführen
 git mv <alt> <neu>  # Datei umbenennen
 printf 'text' >> datei  # Text an Datei anhaengen
+mkdir -p docs  # ordner fuer dokumente anlegen
+cat <<'EOF' > docs/examples.md  # beispiele dokumentieren
+cat <<'EOF' > src/beispiele.py  # beispiel-funktionen erstellen
+cat <<'EOF' > tests/test_beispiele.py  # passenden test anlegen
+echo '\nWeitere Beispiele findest du in examples.md.' >> docs/README.md  # hinweis ergaenzen
+sed -i 's/weitere Beispiele hinzufuegen: offen/weitere Beispiele hinzufuegen: erledigt/' todo.txt  # todo aktualisieren
+echo 'Benutzeroberflaeche vorbereiten: offen' >> todo.txt  # naechsten schritt eintragen
+cat <<'EOF' >> info.txt  # fortschrittsinfo erweitern
+pytest -q  # tests ausfuehren
+find . -type f ! -path './.git/*' | sort > verzeichnisstruktur.txt  # dateiliste erzeugen
