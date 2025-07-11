@@ -70,3 +70,17 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 - `traceroute adresse` – zeigt die Stationen bis zum Ziel (Stationen = Zwischenknoten).
 - `sudo apt autoremove` – entfernt uebriggebliebene Pakete (Pakete = installierte Programme).
 - `ssh-keygen` – erstellt Schluessel fuer sichere Verbindungen (Schluessel = digitales Passwort).
+
+## Noch mehr Befehle
+
+- `git log` – zeigt die Historie der Commits an (Commit = gespeicherter Versionsschritt).
+- `git diff` – listet die Unterschiede zwischen Dateien auf (Unterschiede = geänderte Zeilen).
+- `tar -czf archiv.tar.gz ordner` – packt einen Ordner in eine Archivdatei (Archiv = komprimierte Sammlung von Dateien).
+- `tar -xzf archiv.tar.gz` – entpackt das Archiv wieder (entpacken = Dateien zurückholen).
+- `df -i` – zeigt die Anzahl freier Systemknoten an (Systemknoten = inodes, interne Dateizähler).
+- `tree` – stellt die Ordnerstruktur als Baum dar (Baum = verzweigte Auflistung von Unterordnern).
+- `grep -r wort ordner` – sucht rekursiv nach einem Wort (rekursiv = in allen Unterordnern).
+- `apt search paketname` – sucht nach einem Paket in den Quellen (Quellen = Softwarelisten des Systems).
+- `apt show paketname` – zeigt Details zu einem Paket an (Details = Beschreibung und Abhängigkeiten).
+- `ip link` – zeigt verfügbare Netzwerkschnittstellen (Schnittstelle = Verbindungspunkt des Computers).
+- `ip route` – listet die aktuellen Netzwerkwege auf (Netzwerkwege = Routen zu anderen Rechnern).
