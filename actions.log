@@ -27,3 +27,9 @@ Fri Jul 11 03:00:43 UTC 2025 pytest ausgefuehrt
 Fri Jul 11 03:00:43 UTC 2025 verzeichnisstruktur aktualisiert
 Fri Jul 11 03:00:43 UTC 2025 info.txt angepasst
 Fri Jul 11 03:00:43 UTC 2025 todo.txt angepasst
+Fri Jul 11 04:05:20 UTC 2025 Rotierendes Logging implementiert
+Fri Jul 11 04:05:20 UTC 2025 Rollback-Beispiel hinzugefuegt
+Fri Jul 11 04:05:20 UTC 2025 README aktualisiert
+Fri Jul 11 04:05:20 UTC 2025 todo.txt angepasst
+Fri Jul 11 04:05:20 UTC 2025 info.txt angepasst
+Fri Jul 11 04:05:20 UTC 2025 docs/rotating_logger_rollback.md erstellt

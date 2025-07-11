@@ -1,5 +1,5 @@
-Letzter Schritt: Hauptmodul implementiert
-Nächster Schritt: Dokumentation erweitern
+Letzter Schritt: Rollback-Beispiel hinzugefuegt
+Nächster Schritt: Weiteres Modul planen
 =======
-Letzter Schritt: Tests erweitert
-Nächster Schritt: Dokumentation ergaenzen
+Letzter Schritt: Logging-Anleitung hinzugefügt
+Nächster Schritt: -
