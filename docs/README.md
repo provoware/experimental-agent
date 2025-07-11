@@ -34,4 +34,4 @@ Damit ist die Umgebung bereit für die Ausführung.
 ## Laien-Tipps
 
 Weitere einfache Vorschläge stehen in `LAIENTIPPS.md`. Dort sind alle Befehle ausgeschrieben und Fachbegriffe (wie *Branch* oder *Server*) kurz erklärt.
-Die Liste enthaelt jetzt auch Befehle wie `pwd`, `cat` und `nano` mit kurzen Erlaeuterungen.
+Die Sammlung dort enthält jetzt auch Befehle wie `pwd`, `cat`, `nano`, `history` und `man` mit kurzen Erlaeuterungen.

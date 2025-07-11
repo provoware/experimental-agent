@@ -27,3 +27,8 @@ cat <datei>  # Inhalt einer Datei anzeigen
 nano <datei>  # einfache Textdatei bearbeiten
 grep <wort> <datei>  # nach Text in Datei suchen
 python -m pip install <paket>  # Paket per Python installieren
+history  # zuvor eingegebene Befehle anzeigen
+man <befehl>  # Handbuchseite zu einem Befehl oeffnen
+chmod +x <datei.sh>  # Datei ausfuehrbar machen
+tar -czf <archiv.tar.gz> <ordner>  # Verzeichnis als Archiv packen
+sudo <befehl>  # Befehl mit Administratorrechten ausfuehren

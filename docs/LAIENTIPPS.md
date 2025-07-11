@@ -27,3 +27,11 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 - `nano datei.txt` – oeffnet einen einfachen Editor (Editor = Programm zum Bearbeiten von Dateien).
 - `grep wort datei.txt` – sucht nach einem Wort in einer Datei (suchen = durchsuchen nach Text).
 - `python -m pip install paket` – installiert ein Paket ueber Python (Paket = Sammlung von Programmteilen).
+
+## Weiterfuehrende Befehle
+
+- `history` – zeigt die zuvor eingegebenen Befehle (History = Befehlsverlauf).
+- `man befehl` – ruft die Handbuchseite auf (man = manual, Handbuch).
+- `chmod +x datei.sh` – macht eine Datei ausfuehrbar (ausfuehrbar = kann gestartet werden).
+- `tar -czf archiv.tar.gz ordner` – erstellt ein komprimiertes Archiv (Archiv = gepackte Datei).
+- `sudo befehl` – fuehrt einen Befehl mit Administratorrechten aus (Administrator = Benutzer mit allen Rechten).
