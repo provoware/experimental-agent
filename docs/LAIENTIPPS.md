@@ -76,3 +76,9 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 - `pip install pyinstaller` – installiert **PyInstaller** (Werkzeug zum Erstellen einer einzigen ausfuehrbaren Datei).
 - `pyinstaller --onefile src/main.py` – baut daraus ein einzelnes Programm, das ohne Python-Installation laeuft.
 - `appimagetool dist/main` – erstellt daraus eine **AppImage**-Datei (AppImage = portables Linux-Programm).
+
+## Weitere nuetzliche Befehle
+
+- `history` – zeigt die zuletzt eingegebenen Kommandos an (Kommandos = Befehle im Terminal).
+- `grep "suchbegriff" datei` – durchsucht eine Datei nach einem Wort (grep = Suchwerkzeug).
+- `tar -czf archiv.tar.gz ordner` – packt einen Ordner in ein Archiv (Archiv = komprimierte Datei).

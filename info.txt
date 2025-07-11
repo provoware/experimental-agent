@@ -1,2 +1,4 @@
 Letzter Schritt: Release vorbereitet
 Nächster Schritt: Projekt abschliessen
+Letzter Schritt: Code bereinigt
+Nächster Schritt: Release vorbereiten
