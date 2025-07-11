@@ -1,2 +1,2 @@
-Letzter Schritt: Noch weiterfuehrende Laienbefehle
+Letzter Schritt: Professionelle Versionskontrolle
 Nächster Schritt: Release vorbereiten

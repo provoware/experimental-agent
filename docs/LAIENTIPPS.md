@@ -91,3 +91,18 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 - `git clean -f` – entfernt unversionierte Dateien (unversioniert = nicht in Git).
 - `git remote add origin <URL>` – verbindet dein Projekt mit einem Server (Server = zentrale Ablage).
 - `git push origin main` – überträgt deine Arbeit zum Server.
+
+## Professionelle Versionskontrolle
+
+- `git fetch origin` – holt neue Daten vom Server, ohne sie einzubauen (fetch = nur herunterladen).
+- `git pull --rebase` – holt Daten und ordnet deine Arbeit oben an (rebase = neu ausrichten).
+- `git branch -d zweig` – löscht einen Entwicklungszweig (Branch = parallele Arbeitslinie).
+- `git merge --no-ff zweig` – fügt einen Zweig immer als eigenen Punkt ein (no-ff = ohne direkte Verschmelzung).
+- `git remote -v` – zeigt verbundene Server an (remote = entfernte Ablage).
+- `git stash list` – zeigt abgelegte Änderungen (stash = Zwischenablage).
+- `git stash pop` – holt zuletzt abgelegte Änderungen zurück (pop = wiederherstellen).
+- `git rebase --abort` – bricht eine laufende Rebase ab (Rebase = Neuordnung der Commits).
+- `git merge --abort` – bricht einen Merge-Vorgang ab (Merge = Zusammenführen).
+- `git branch -m alt neu` – benennt einen Zweig um.
+- `git config --global user.name "Name"` – legt deinen Namen fest (Config = Einstellung).
+- `git config --global user.email "mail@example.com"` – legt deine E-Mail fest.
