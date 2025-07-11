@@ -56,3 +56,6 @@ ping <adresse>  # Verbindung testen
 traceroute <adresse>  # Netzwerkwege anzeigen
 sudo apt autoremove  # nicht mehr benoetigte Pakete entfernen
 ssh-keygen  # Schluessel erzeugen
+git stash         # aktuelle Aenderungen sichern
+git stash pop     # gespeicherte Aenderungen wiederherstellen
+git reset --hard HEAD  # Arbeitsverzeichnis zuruecksetzen
