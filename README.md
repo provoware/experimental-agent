@@ -1,13 +1,29 @@
 # experimental-agent
 
-Dieses Projekt zeigt einen unveränderlichen zentralen Controller. Er lässt sich über eine einfache Oberfläche steuern.
+Der **Controller** (Steuerprogramm) ist das Herzstück dieses Projekts. Er verwaltet alle Module und soll unveränderlich laufen.
 
-## Befehle zum Starten
+## Installation
 
-1. `git clone <REPO-URL>` (holt den Quellcode vom Server)
-2. `cd experimental-agent` (wechseln in den Projektordner)
-3. `pytest` (startet die Tests)
-4. `python src/main.py` (startet den Controller)
-=======
-3. `pytest` (startet die Tests, falls welche existieren)
+1. Terminal öffnen.
+2. `git clone <REPO-URL>` (Repository aus der Versionsverwaltung klonen).
+3. `cd experimental-agent` (in den Ordner wechseln).
+4. `python3 --version` (Version kontrollieren). Falls nicht vorhanden: `sudo apt update && sudo apt install python3 python3-venv python3-pip` (**apt** ist die Paketverwaltung von Debian/Ubuntu).
+5. `python3 -m venv venv` (virtuelle Umgebung *virtual environment* - isolierter Arbeitsbereich - anlegen).
+6. `source venv/bin/activate` (Umgebung aktivieren).
+7. `pip install -r requirements.txt` (**pip** ist der Paketmanager für Python, installiert hier die Abhängigkeiten).
 
+## Anwendung
+
+1. `pytest` (Tests ausführen und überprüfen).
+2. `python src/main.py` (Controller starten).
+
+## Was macht der Controller?
+
+Der Controller sorgt dafür, dass alle Teile des Systems ordnungsgemäß laufen. Er erkennt Fehler und kann sie selbst beheben ("Selbstheilung").
+
+## Weitere Tipps für Einsteiger
+
+* Falls Python fehlt: `sudo apt install python3` (Installation über **apt** - Paketverwaltung für Debian/Ubuntu).
+* Mit `pip list` lassen sich installierte Pakete anzeigen.
+* `pip install --upgrade pip` aktualisiert **pip** auf die neueste Version.
+* Um die virtuelle Umgebung zu verlassen, `deactivate` eingeben. Danach kann sie mit `rm -r venv` gelöscht werden.

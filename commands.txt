@@ -8,5 +8,7 @@ pytest  # startet Tests
 rm -rf .pytest_cache  # entfernt Test-Zwischenspeicher
 sed -i 'alt neu' datei  # ersetzt 'alt' durch 'neu'
 python src/main.py  # startet den Controller
-=======
 pytest -q  # Tests ausführen
+sudo apt update  # Paketlisten aktualisieren
+sudo apt install python3 python3-venv python3-pip  # Python und Tools installieren
+pip install -r requirements.txt  # Abhängigkeiten mit pip installieren
