@@ -24,3 +24,5 @@ Zusatzbefehle ergaenzen: erledigt
 Verzeichnisstruktur aktualisieren: erledigt
 Ansicht optimiert: erledigt
 Hauptmodul repariert: erledigt
+Funktion zum Modul-Hinzufügen: erledigt
+Laienvorschläge erweitert: erledigt

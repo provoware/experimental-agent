@@ -1,5 +1,7 @@
 """Hauptmodul."""
 
+import os
+
 class Controller:
     """Unveraenderlicher zentraler Controller."""
 
@@ -14,6 +16,18 @@ class Controller:
     def self_heal(self):
         """Versucht einfache Fehler selbst zu beheben."""
         return "Selbstheilung aktiviert"
+
+    def add_module(self, module_name):
+        """Fügt ein Modul hinzu und heilt Fehler selbständig."""
+        try:
+            __import__(module_name)
+            return f"Modul {module_name} geladen"
+        except Exception:
+            path = os.path.join('src', f"{module_name}.py")
+            if not os.path.exists(path):
+                with open(path, 'w') as f:
+                    f.write("# automatisch erzeugter Platzhalter für neues Modul\n")
+            return f"Fehler beim Laden, Platzhalter fuer {module_name} erstellt"
 
 
 def hauptfunktion():

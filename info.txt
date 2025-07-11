@@ -1,2 +1,2 @@
-Letzter Schritt: Hauptmodul repariert
+Letzter Schritt: Funktion zum Modul-Hinzufügen erstellt
 Nächster Schritt: Release vorbereiten

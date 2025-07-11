@@ -75,3 +75,5 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 
 - `git log` – zeigt die Historie an (Historie = Liste aller Commits).
 - `git stash` – legt Änderungen vorübergehend beiseite (beiseitelegen = speichern ohne Commit).
+- `git revert HEAD` – macht den letzten Commit rückgängig (Commit = gespeicherter Arbeitsschritt), ohne die Historie zu verändern.
+- `git reset --hard HEAD~1` – setzt den Stand um einen Commit zurück (Stand = aktueller Inhalt). Alle lokalen Änderungen gehen verloren.
