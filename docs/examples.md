@@ -13,3 +13,8 @@ from src.beispiele import begruesse
 
 print(begruesse("Alice"))
 ```
+
+## GUI starten
+```bash
+python src/gui.py
+```

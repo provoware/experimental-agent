@@ -10,3 +10,6 @@ Naechster Schritt: weitere Beispiele hinzufuegen
 =======
 Letzter Schritt: weitere Beispiele hinzugefuegt
 Naechster Schritt: Benutzeroberflaeche vorbereiten
+=======
+Letzter Schritt: Benutzeroberflaeche vorbereitet
+Naechster Schritt: Fehlerbehandlung verbessern

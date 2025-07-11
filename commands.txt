@@ -22,3 +22,17 @@ echo 'Benutzeroberflaeche vorbereiten: offen' >> todo.txt  # naechsten schritt e
 cat <<'EOF' >> info.txt  # fortschrittsinfo erweitern
 pytest -q  # tests ausfuehren
 find . -type f ! -path './.git/*' | sort > verzeichnisstruktur.txt  # dateiliste erzeugen
+cat <<'EOF' > src/gui.py  # einfache gui erstellen
+EOF
+
+cat <<'EOF' > tests/test_gui.py  # test fuer gui
+EOF
+printf '\n## GUI starten\n```bash\npython src/gui.py\n```\n' >> docs/examples.md  # gui dokument
+printf '\n* GUI gestartet (startet die GUI)' >> docs/README.md  # hinweis gui
+sed -i 's/Benutzeroberflaeche vorbereiten: offen/Benutzeroberflaeche vorbereiten: erledigt/' todo.txt  # todo aktualisieren
+echo 'Fehlerbehandlung verbessern: offen' >> todo.txt  # neuen schritt
+cat <<'EOF' >> info.txt  # fortschritt vermerken
+EOF
+pytest -q  # tests ausfuehren
+find . -type f ! -path './.git/*' | sort > verzeichnisstruktur.txt  # dateiliste erzeugen
+printf '\n* `python src/gui.py` (startet die GUI)' >> docs/README.md  # hinweis gui

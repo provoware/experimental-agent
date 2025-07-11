@@ -12,4 +12,5 @@ Hauptfunktion implementieren: erledigt
 Neue Tests erweitern: erledigt
 Dokumentation ergaenzen: erledigt
 weitere Beispiele hinzufuegen: erledigt
-Benutzeroberflaeche vorbereiten: offen
+Benutzeroberflaeche vorbereiten: erledigt
+Fehlerbehandlung verbessern: offen
