@@ -29,3 +29,4 @@ Laienvorschläge erweitert: erledigt
 Module in GUI integrieren: erledigt
 Noch weiterfuehrende Laienbefehle: erledigt
 Professionelle Versionskontrolle: erledigt
+Profi-Version Laienvorschlaege: erledigt

@@ -106,3 +106,12 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 - `git branch -m alt neu` – benennt einen Zweig um.
 - `git config --global user.name "Name"` – legt deinen Namen fest (Config = Einstellung).
 - `git config --global user.email "mail@example.com"` – legt deine E-Mail fest.
+
+## Profi-Version
+
+- `git reflog` – listet alle Bewegungen des Projektzeigers auf (reflog = Verlauf der Commits) und hilft, verlorene Stände wiederzufinden.
+- `git submodule add <URL> unterordner` – bindet ein weiteres Repository ein (Submodule = eingebettetes Unterprojekt).
+- `git worktree add -b zweig ../zweig-verzeichnis` – legt einen zusätzlichen Arbeitsbaum an (Worktree = weiterer Projektordner) und erstellt direkt einen neuen Zweig.
+- `git commit --signoff -m "Nachricht"` – fügt dem Commit eine Signaturzeile hinzu (Signoff = Bestätigung mit Namen und E-Mail).
+- `git gc` – räumt das Repository auf (gc = garbage collection, Datenbereinigung).
+- `git blame datei` – zeigt, wer welche Zeile zuletzt geändert hat (blame = Zuschreibung).
