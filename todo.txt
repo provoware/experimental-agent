@@ -21,3 +21,7 @@ Noch mehr Laienbefehle: erledigt
 Interaktive GUI erstellen: erledigt
 Zusatzbefehle ergaenzen: erledigt
 
+# Neue Aufgaben
+GUI modernisieren: erledigt
+Weitere Laienvorschlaege hinzufuegen: erledigt
+

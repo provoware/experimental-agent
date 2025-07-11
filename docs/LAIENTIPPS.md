@@ -70,3 +70,9 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 - `traceroute adresse` – zeigt die Stationen bis zum Ziel (Stationen = Zwischenknoten).
 - `sudo apt autoremove` – entfernt uebriggebliebene Pakete (Pakete = installierte Programme).
 - `ssh-keygen` – erstellt Schluessel fuer sichere Verbindungen (Schluessel = digitales Passwort).
+
+## Weitere praktische Helfer
+
+- `htop` – zeigt Prozesse farbig an (Prozesse = laufende Programme).
+- `rsync -av quelle ziel` – kopiert Dateien und Ordner (kopieren = übertragen).
+- `sudo shutdown -h now` – faehrt den Rechner sofort herunter (herunterfahren = ausschalten).
