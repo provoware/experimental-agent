@@ -1,13 +1,13 @@
 # experimental-agent
 
-Dieses Projekt zeigt einen unveränderlichen zentralen Controller. Er lässt sich über eine einfache Oberfläche steuern.
+Dieses Projekt zeigt einen einfachen Controller und erweiterbare Module.
 
-## Befehle zum Starten
+## Nutzung
 
-1. `git clone <REPO-URL>` (holt den Quellcode vom Server)
-2. `cd experimental-agent` (wechseln in den Projektordner)
-3. `pytest` (startet die Tests)
-4. `python src/main.py` (startet den Controller)
-=======
-3. `pytest` (startet die Tests, falls welche existieren)
+1. `git clone <REPO-URL>` – Repository klonen (herunterladen)
+2. `cd experimental-agent` – in das Projekt wechseln
+3. `pytest` – Tests ausführen
+4. `python src/main.py` – Controller starten
+5. `./agent audioplayer` – Audio-Player öffnen
 
+Der Befehl `agent` ist ein kleines Kommandozeilenprogramm. Damit lässt sich der Audio-Player direkt starten.
