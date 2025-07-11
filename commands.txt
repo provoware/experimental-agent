@@ -56,3 +56,7 @@ ping <adresse>  # Verbindung testen
 traceroute <adresse>  # Netzwerkwege anzeigen
 sudo apt autoremove  # nicht mehr benoetigte Pakete entfernen
 ssh-keygen  # Schluessel erzeugen
+systemctl status <dienst>  # Status eines Dienstes pruefen
+journalctl -xe  # aktuelle Systemlogs anzeigen
+dmesg  # Kernel-Meldungen ausgeben
+tail -f /var/log/syslog  # Systemprotokoll live verfolgen
