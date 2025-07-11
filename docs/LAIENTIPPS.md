@@ -55,3 +55,18 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 - `ip a` – listet Netzwerkinformationen auf (Netzwerk = Verbindung zwischen Computern).
 - `ssh benutzer@host` – verbindet sich mit einem anderen Rechner (ssh = sichere Fernsteuerung).
 - `scp datei benutzer@host:/pfad` – kopiert eine Datei zu einem anderen Rechner (kopieren = übertragen).
+
+## Nuetzliche Systembefehle
+
+- `free -m` – zeigt den freien Arbeitsspeicher an (Arbeitsspeicher = RAM).
+- `uptime` – gibt an, wie lange der Rechner bereits laeuft (Rechner = Computer).
+- `whoami` – zeigt den aktuellen Benutzer (Benutzer = Nutzerkonto).
+- `which befehl` – nennt den Pfad zu einem Programm (Pfad = Speicherort).
+- `uname -a` – liefert Details zum Betriebssystem (Betriebssystem = Grundsoftware).
+
+## Netzwerkbefehle
+
+- `ping adresse` – prueft die Verbindung zu einem Ziel (Ziel = andere Adresse im Netz).
+- `traceroute adresse` – zeigt die Stationen bis zum Ziel (Stationen = Zwischenknoten).
+- `sudo apt autoremove` – entfernt uebriggebliebene Pakete (Pakete = installierte Programme).
+- `ssh-keygen` – erstellt Schluessel fuer sichere Verbindungen (Schluessel = digitales Passwort).

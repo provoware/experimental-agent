@@ -47,3 +47,12 @@ du -sh <ordner>  # Speicherbedarf eines Ordners
 ip a  # Netzwerkinformationen anzeigen
 ssh benutzer@host  # Verbindung zu anderem Rechner aufbauen
 scp <datei> benutzer@host:/pfad  # Datei uebertragen
+free -m  # freien Arbeitsspeicher anzeigen
+uptime  # Betriebsdauer anzeigen
+whoami  # aktuellen Benutzer zeigen
+which <befehl>  # Pfad zu einem Programm anzeigen
+uname -a  # Details zum Betriebssystem
+ping <adresse>  # Verbindung testen
+traceroute <adresse>  # Netzwerkwege anzeigen
+sudo apt autoremove  # nicht mehr benoetigte Pakete entfernen
+ssh-keygen  # Schluessel erzeugen

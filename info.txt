@@ -1,2 +1,2 @@
-Letzter Schritt: Interaktive GUI erstellt und Laientipps erweitert
+Letzter Schritt: Zusatzbefehle ergaenzt
 Nächster Schritt: Release vorbereiten
