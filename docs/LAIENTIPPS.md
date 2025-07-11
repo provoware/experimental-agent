@@ -45,3 +45,13 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 - `kill <PID>` – beendet einen Prozess (PID = Prozess-ID).
 - `curl https://adresse` – ruft Daten aus dem Internet ab (Internet = weltweites Netzwerk).
 - `wget <URL>` – laedt eine Datei herunter (herunterladen = aus dem Internet speichern).
+
+## Noch weiterfuehrende Befehle
+
+- `less datei.txt` – zeigt den Inhalt seitenweise an (seitenweise = blättern durch Text).
+- `head -n 10 datei.txt` – zeigt die ersten Zeilen an (Zeile = Textreihe).
+- `tail -n 10 datei.txt` – zeigt die letzten Zeilen an.
+- `du -sh ordner` – zeigt, wie viel Speicher ein Ordner braucht (Speicher = Platz auf der Festplatte).
+- `ip a` – listet Netzwerkinformationen auf (Netzwerk = Verbindung zwischen Computern).
+- `ssh benutzer@host` – verbindet sich mit einem anderen Rechner (ssh = sichere Fernsteuerung).
+- `scp datei benutzer@host:/pfad` – kopiert eine Datei zu einem anderen Rechner (kopieren = übertragen).

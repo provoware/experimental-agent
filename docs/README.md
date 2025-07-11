@@ -35,3 +35,6 @@ Damit ist die Umgebung bereit für die Ausführung.
 
 Weitere einfache Vorschläge stehen in `LAIENTIPPS.md`. Dort sind alle Befehle ausgeschrieben und Fachbegriffe (wie *Branch* oder *Server*) kurz erklärt.
 Die Sammlung dort enthält jetzt auch Befehle wie `pwd`, `cat`, `nano`, `history`, `man`, `apt update`, `df -h`, `curl` und `wget` mit kurzen Erlaeuterungen.
+
+Es gibt auch eine kleine grafische Oberflaeche. Mit `python src/gui.py` startest du sie und kannst den Controller per Knopfdruck aufrufen.
+Die Tippsdatei enthaelt zudem neue Befehle wie `less`, `tail` und `ssh`.

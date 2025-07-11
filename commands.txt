@@ -39,3 +39,11 @@ ps aux  # Prozesse auflisten
 kill <PID>  # Prozess beenden
 curl <url>  # Daten aus dem Internet abrufen
 wget <url>  # Datei aus dem Internet speichern
+python src/gui.py  # startet grafische Oberflaeche
+less <datei>  # Datei seitenweise anzeigen
+head -n 10 <datei>  # erste Zeilen einer Datei
+tail -n 10 <datei>  # letzte Zeilen einer Datei
+du -sh <ordner>  # Speicherbedarf eines Ordners
+ip a  # Netzwerkinformationen anzeigen
+ssh benutzer@host  # Verbindung zu anderem Rechner aufbauen
+scp <datei> benutzer@host:/pfad  # Datei uebertragen

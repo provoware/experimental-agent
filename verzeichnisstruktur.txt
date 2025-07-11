@@ -11,11 +11,13 @@
 ./info.txt
 ./requirements.txt
 ./src/__init__.py
+./src/gui.py
 ./src/main.py
 ./src/placeholder.done
 ./src/placeholder.todo
 ./tests/placeholder.todo
 ./tests/test_basic.py
+./tests/test_gui.py
 ./tests/test_main.py
 ./todo.txt
 ./verzeichnisstruktur.txt

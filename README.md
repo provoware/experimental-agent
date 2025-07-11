@@ -44,3 +44,6 @@ Der Controller sorgt dafür, dass alle Teile des Systems ordnungsgemäß laufen.
 * `pip uninstall paketname` entfernt ein Paket (Paket = Sammlung von Programmteilen).
 Weitere ausführliche Hinweise findest du in `docs/LAIENTIPPS.md`.
 Die Liste dort enthaelt jetzt auch Befehle wie `pwd`, `cat`, `nano`, `history`, `man`, `apt update`, `df -h`, `curl` und `wget`, jeweils kurz beschrieben.
+
+Zusaetzlich gibt es eine kleine grafische Oberflaeche. Starte sie mit `python src/gui.py`.
+Die Tippsdatei enthaelt jetzt auch Befehle wie `less`, `tail` oder `ssh`.
