@@ -1,6 +1,6 @@
 # experimental-agent
 
-Dieses Projekt zeigt einen unveränderlichen zentralen Controller. Er lässt sich über eine einfache Oberfläche steuern.
+Dieses Projekt zeigt einen unver\u00e4nderlichen zentralen Controller. Er l\u00e4sst sich \u00fcber eine einfache Oberfl\u00e4che steuern.
 
 ## Befehle zum Starten
 
@@ -8,6 +8,5 @@ Dieses Projekt zeigt einen unveränderlichen zentralen Controller. Er lässt sic
 2. `cd experimental-agent` (wechseln in den Projektordner)
 3. `pytest` (startet die Tests)
 4. `python src/main.py` (startet den Controller)
-=======
-3. `pytest` (startet die Tests, falls welche existieren)
 
+Weitere Hinweise zu rotierendem Logging und Rollback findest du in `docs/rotating_logger_rollback.md`.
