@@ -39,3 +39,5 @@ Die Sammlung dort enthält jetzt auch Befehle wie `pwd`, `cat`, `nano`, `history
 Es gibt auch eine kleine grafische Oberflaeche. Mit `python src/gui.py` startest du sie und kannst den Controller per Knopfdruck aufrufen.
 Die Tippsdatei enthaelt zudem neue Befehle wie `less`, `tail` und `ssh`.
 Auch Befehle wie `free -m`, `whoami`, `ping` und `traceroute` sind nun erklaert.
+Neu dazugekommen sind Hinweise zu Aliasen und dem PATH sowie zu `crontab` und `rsync`.
+Weitere Tipps erklaeren die Anpassung der Eingabeaufforderung, das Leeren des Verlaufs, die Dateisuche und symbolische Links.
