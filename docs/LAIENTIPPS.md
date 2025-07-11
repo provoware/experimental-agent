@@ -70,3 +70,14 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 - `traceroute adresse` – zeigt die Stationen bis zum Ziel (Stationen = Zwischenknoten).
 - `sudo apt autoremove` – entfernt uebriggebliebene Pakete (Pakete = installierte Programme).
 - `ssh-keygen` – erstellt Schluessel fuer sichere Verbindungen (Schluessel = digitales Passwort).
+
+## Schritte zur Veroeffentlichung (Release)
+
+Diese Tipps helfen dir, eine lauffaehige AppImage-Datei zu erstellen. Alle Befehle sind komplett angegeben. Fachbegriffe stehen in Klammern und werden kurz erklaert.
+
+1. `pip install appimage-builder` – installiert das Werkzeug, um eine AppImage zu bauen (AppImage = portable Linux-Anwendung).
+2. `appimage-builder --recipe recipe.yml` – erstellt die AppImage-Datei mit einer Rezeptdatei (Rezept = Bauanleitung).
+3. `chmod +x *.AppImage` – macht die erzeugte Datei ausfuehrbar (ausfuehrbar = direkt startbar).
+4. `./deinProgramm.AppImage` – startet das Programm als portable Version.
+
+Damit hast du ein eigenstaendiges Paket, das auf verschiedenen Linux-Systemen laeuft.

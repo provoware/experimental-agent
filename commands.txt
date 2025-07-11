@@ -56,3 +56,7 @@ ping <adresse>  # Verbindung testen
 traceroute <adresse>  # Netzwerkwege anzeigen
 sudo apt autoremove  # nicht mehr benoetigte Pakete entfernen
 ssh-keygen  # Schluessel erzeugen
+pip install appimage-builder  # AppImage-Werkzeug installieren
+appimage-builder --recipe recipe.yml  # AppImage erstellen
+chmod +x *.AppImage  # AppImage ausfuehrbar machen
+./deinProgramm.AppImage  # AppImage starten
