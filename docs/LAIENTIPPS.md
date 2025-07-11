@@ -70,3 +70,9 @@ Die Liste soll Einsteigern helfen, häufige Aufgaben selbstständig zu erledigen
 - `traceroute adresse` – zeigt die Stationen bis zum Ziel (Stationen = Zwischenknoten).
 - `sudo apt autoremove` – entfernt uebriggebliebene Pakete (Pakete = installierte Programme).
 - `ssh-keygen` – erstellt Schluessel fuer sichere Verbindungen (Schluessel = digitales Passwort).
+
+## Weitere nuetzliche Befehle
+
+- `history` – zeigt die zuletzt eingegebenen Kommandos an (Kommandos = Befehle im Terminal).
+- `grep "suchbegriff" datei` – durchsucht eine Datei nach einem Wort (grep = Suchwerkzeug).
+- `tar -czf archiv.tar.gz ordner` – packt einen Ordner in ein Archiv (Archiv = komprimierte Datei).
