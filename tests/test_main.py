@@ -7,4 +7,4 @@ from src.main import hauptfunktion
 
 
 def test_hauptfunktion():
-    assert hauptfunktion() is None
+    assert hauptfunktion() == "Hallo Welt"

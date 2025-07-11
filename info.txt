@@ -1,2 +1,2 @@
-Letzter Schritt: Grundfunktion und einfachen Test hinzugefügt
-Nächster Schritt: Hauptfunktion implementieren
+Letzter Schritt: Hauptfunktion implementiert
+Nächster Schritt: Neue Tests erweitern

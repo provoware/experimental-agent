@@ -2,5 +2,5 @@
 
 
 def hauptfunktion():
-    """Platzhalterfunktion der Anwendung."""
-    pass
+    """Gibt eine Grußnachricht zurück."""
+    return "Hallo Welt"
