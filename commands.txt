@@ -56,3 +56,9 @@ ping <adresse>  # Verbindung testen
 traceroute <adresse>  # Netzwerkwege anzeigen
 sudo apt autoremove  # nicht mehr benoetigte Pakete entfernen
 ssh-keygen  # Schluessel erzeugen
+git stash  # aktuelle Aenderungen sichern
+git rebase origin/main  # Aenderungen von main einpflegen
+docker build -t beispiel .  # Docker-Abbild bauen
+docker run beispiel  # Abbild starten
+screen -S session  # dauerhafte Terminal-Sitzung
+htop  # erweiterte Prozessuebersicht

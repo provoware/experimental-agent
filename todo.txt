@@ -11,7 +11,7 @@ Hauptfunktion implementieren: erledigt
 Neue Tests erweitern: erledigt
 Dokumentation ergaenzen: erledigt
 Aufgabenreihenfolge erstellen: erledigt
-Release vorbereiten: offen
+Release vorbereiten: erledigt
 Selbstheilung implementieren: erledigt
 Laienvorschlaege ergaenzen: erledigt
 Dateien vervollstaendigen: erledigt
@@ -21,3 +21,4 @@ Noch mehr Laienbefehle: erledigt
 Interaktive GUI erstellen: erledigt
 Zusatzbefehle ergaenzen: erledigt
 
+Fortgeschrittene Befehle ergaenzen: erledigt
